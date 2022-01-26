@@ -11,3 +11,7 @@ from itemadapter import ItemAdapter
 class JavhooPipeline:
     def process_item(self, item, spider):
         return item
+
+
+if __name__ == "__main__":
+    pass
