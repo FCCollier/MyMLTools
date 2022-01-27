@@ -6,3 +6,13 @@
 
 ## 功能性概述
 
+## 常用命令
+1. 生成requirements文件
+```
+cd 项目目录
+pip freeze > requirements.txt
+```
+2. 安装requirements依赖
+```
+pip install -r requirements.txt
+```
