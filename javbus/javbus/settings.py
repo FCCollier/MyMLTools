@@ -12,6 +12,11 @@ BOT_NAME = 'javbus'
 SPIDER_MODULES = ['javbus.spiders']
 NEWSPIDER_MODULE = 'javbus.spiders'
 
+MYSQL_DB_NAME = "javbus"
+MYSQL_HOST = "82.157.160.44"
+MYSQL_USER = "myscrapy"
+MYSQL_PASSWORD = "ReAwVFYtePgkSQcI"
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'javbus (+http://www.yourdomain.com)'
 
@@ -24,7 +29,12 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-# DOWNLOAD_DELAY = 3
+
+## 下载延迟时间
+DOWNLOAD_DELAY = 10
+## 随机延迟 0.5 ~ 1.5 倍数
+RANDOMIZE_DOWNLOAD_DELAY = True
+
 # The download delay setting will honor only one of:
 # CONCURRENT_REQUESTS_PER_DOMAIN = 16
 # CONCURRENT_REQUESTS_PER_IP = 16
@@ -43,9 +53,9 @@ ROBOTSTXT_OBEY = False
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-# SPIDER_MIDDLEWARES = {
-#    'javbus.middlewares.JavbusSpiderMiddleware': 543,
-# }
+SPIDER_MIDDLEWARES = {
+   'javbus.middlewares.JavBusUserAgentMiddleware': 543,
+}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
@@ -61,9 +71,9 @@ ROBOTSTXT_OBEY = False
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-# ITEM_PIPELINES = {
-#    'javbus.pipelines.JavbusPipeline': 300,
-# }
+ITEM_PIPELINES = {
+    'javbus.pipelines.PagePipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
