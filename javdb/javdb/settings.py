@@ -15,7 +15,7 @@ NEWSPIDER_MODULE = 'javdb.spiders'
 MYSQL_DB_NAME = "javdb"
 MYSQL_HOST = "82.157.160.44"
 MYSQL_USER = "myscrapy"
-MYSQL_PASSWORD = "fcff57ee40f5c8fb"
+MYSQL_PASSWORD = "ReAwVFYtePgkSQcI"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'javdb (+http://www.yourdomain.com)'

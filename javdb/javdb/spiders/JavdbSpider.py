@@ -31,7 +31,7 @@ class JavdbSpider(Spider):
             pageitem.add_xpath("video_title", "a/div[@class='video-title']/text()")
             # //*[@id="videos"]/div/div[2]/a
             pageitem.add_xpath("video_url", "a/@href")
-            pageitem.add_xpath("pub_date", "a/div[@class='meta']/text()")
+            # pageitem.add_xpath("pub_date", "a/div[@class='meta']/text()")
             # //*[@id="videos"]/div/div[2]/a/div[5]/span[2]
             pageitem.add_xpath("is_today", "a/div[@class='tags has-addons']/span[@class='tag is-info']/text()")
             pageitem.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))

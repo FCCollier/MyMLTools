@@ -4,7 +4,7 @@
 # https://docs.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-from scrapy.loader.processors import TakeFirst
+from itemloaders.processors import TakeFirst
 
 
 def replace_all(mydata):
@@ -20,6 +20,6 @@ class PageItem(scrapy.Item):
     video_id = scrapy.Field(input_processor=replace_all, output_processor=TakeFirst())
     video_title = scrapy.Field(input_processor=replace_all, output_processor=TakeFirst())
     video_url = scrapy.Field(input_processor=replace_all, output_processor=TakeFirst())
-    pub_date = scrapy.Field(input_processor=replace_all, output_processor=TakeFirst())
+    # pub_date = scrapy.Field(input_processor=replace_all, output_processor=TakeFirst())
     is_today = scrapy.Field(input_processor=replace_all, output_processor=TakeFirst())
     last_update = scrapy.Field(input_processor=replace_all, output_processor=TakeFirst())

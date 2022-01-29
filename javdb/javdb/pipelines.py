@@ -25,6 +25,19 @@ class PagePipeline:
         self.db_corsor = self.db_conn.cursor()
 
     def process_item(self, item, spider):
+        values = (
+            item["video_id"],
+            item["video_title"],
+            item["video_url"],
+            # item["pub_date"],
+            item["is_today"],
+            item["last_update"],
+        )
+        sql = '''
+        insert into page_info(video_id,video_title,video_url,is_today,last_update) 
+        values(%s,%s,%s,%s,%s)
+        '''
+        self.db_corsor.execute(sql, values)
         return item
 
     def close_spider(self, spider):
