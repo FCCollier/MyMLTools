@@ -2,11 +2,21 @@
 #
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+import random
 
 from scrapy import signals
+from scrapy.downloadermiddlewares.useragent import UserAgentMiddleware
+from fake_useragent import UserAgent
 
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
+
+
+class JavdbUserAgentMiddleware(UserAgentMiddleware):
+    def process_request(self, request, spider):
+        ua = UserAgent()
+        request.headers['User-Agent'] = ua.random
+        print("浏览器代理：", request.headers['User-Agent'])
 
 
 class JavdbSpiderMiddleware:

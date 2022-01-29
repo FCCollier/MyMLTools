@@ -18,7 +18,7 @@ MYSQL_USER = "myscrapy"
 MYSQL_PASSWORD = "ReAwVFYtePgkSQcI"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = 'javdb (+http://www.yourdomain.com)'
+# USER_AGENT = 'javdb (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -31,7 +31,7 @@ ROBOTSTXT_OBEY = False
 # See also autothrottle settings and docs
 
 ## 下载延迟时间
-DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 10
 ## 随机延迟 0.5 ~ 1.5 倍数
 RANDOMIZE_DOWNLOAD_DELAY = True
 
@@ -53,9 +53,9 @@ COOKIES_ENABLED = False
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-# SPIDER_MIDDLEWARES = {
-#    'javdb.middlewares.JavdbSpiderMiddleware': 543,
-# }
+SPIDER_MIDDLEWARES = {
+   'javdb.middlewares.JavdbUserAgentMiddleware': 543,
+}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
