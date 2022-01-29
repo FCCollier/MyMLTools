@@ -14,3 +14,6 @@ class JavBusSpider(Spider):
 
     def page_parse(self, response, **kwargs):
         print(response.status)
+
+    def detail_parse(self, response, **kwargs):
+        pass

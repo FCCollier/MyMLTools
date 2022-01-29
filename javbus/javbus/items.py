@@ -6,7 +6,11 @@
 import scrapy
 
 
-class JavbusItem(scrapy.Item):
+class PageItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    pass
+
+
+class DetailItem(scrapy.Item):
     pass
