@@ -1,0 +1,176 @@
+2022-02-07 12:24:23 [scrapy.core.scraper] ERROR: Error processing {'last_update': '2022-02-07 12:24:23'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 22, in process_item
+    'video_id': [item["video_id"]],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'video_id'
+2022-02-07 12:24:46 [scrapy.core.scraper] ERROR: Error processing {'last_update': '2022-02-07 12:24:46'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 22, in process_item
+    'video_id': [item["video_id"]],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'video_id'
+2022-02-07 12:25:29 [scrapy.core.scraper] ERROR: Error processing {'last_update': '2022-02-07 12:25:29'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 22, in process_item
+    'video_id': [item["video_id"]],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'video_id'
+2022-02-07 12:26:09 [scrapy.core.scraper] ERROR: Error processing {'last_update': '2022-02-07 12:26:09'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 22, in process_item
+    'video_id': [item["video_id"]],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'video_id'
+2022-02-07 12:26:48 [scrapy.core.scraper] ERROR: Error processing {'last_update': '2022-02-07 12:26:48'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 22, in process_item
+    'video_id': [item["video_id"]],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'video_id'
+2022-02-07 12:27:31 [scrapy.core.scraper] ERROR: Error processing {'last_update': '2022-02-07 12:27:31'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 22, in process_item
+    'video_id': [item["video_id"]],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'video_id'
+2022-02-07 12:27:55 [scrapy.core.scraper] ERROR: Error processing {'last_update': '2022-02-07 12:27:55'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 22, in process_item
+    'video_id': [item["video_id"]],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'video_id'
+2022-02-07 12:28:32 [scrapy.core.scraper] ERROR: Error processing {'last_update': '2022-02-07 12:28:32'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 22, in process_item
+    'video_id': [item["video_id"]],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'video_id'
+2022-02-07 12:29:11 [scrapy.core.scraper] ERROR: Error processing {'last_update': '2022-02-07 12:29:11'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 22, in process_item
+    'video_id': [item["video_id"]],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'video_id'
+2022-02-07 12:29:55 [scrapy.core.scraper] ERROR: Error processing {'last_update': '2022-02-07 12:29:55'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 22, in process_item
+    'video_id': [item["video_id"]],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'video_id'
+2022-02-07 12:30:28 [scrapy.core.scraper] ERROR: Error processing {'last_update': '2022-02-07 12:30:28'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 22, in process_item
+    'video_id': [item["video_id"]],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'video_id'
+2022-02-07 12:30:59 [scrapy.core.scraper] ERROR: Error processing {'last_update': '2022-02-07 12:30:59'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 22, in process_item
+    'video_id': [item["video_id"]],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'video_id'
+2022-02-07 12:31:36 [scrapy.core.scraper] ERROR: Error processing {'last_update': '2022-02-07 12:31:36'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 22, in process_item
+    'video_id': [item["video_id"]],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'video_id'
+2022-02-07 12:32:10 [scrapy.core.scraper] ERROR: Error processing {'last_update': '2022-02-07 12:32:10'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 22, in process_item
+    'video_id': [item["video_id"]],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'video_id'
+2022-02-07 12:32:42 [scrapy.core.scraper] ERROR: Error processing {'last_update': '2022-02-07 12:32:42'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 22, in process_item
+    'video_id': [item["video_id"]],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'video_id'
+2022-02-07 12:33:13 [scrapy.core.scraper] ERROR: Error processing {'last_update': '2022-02-07 12:33:13'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 858, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 22, in process_item
+    'video_id': [item["video_id"]],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'video_id'
