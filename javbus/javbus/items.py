@@ -28,4 +28,6 @@ class ActressItem(scrapy.Item):
 
 
 class ActressPageItem(scrapy.Item):
-    pass
+    actress_id = scrapy.Field(output_processor=TakeFirst())
+    actress_url = scrapy.Field(output_processor=TakeFirst())
+    last_update = scrapy.Field(output_processor=TakeFirst())

@@ -5,7 +5,7 @@ from scrapy.loader import ItemLoader
 import time
 import pandas as pd
 from sqlalchemy import create_engine
-from scrapy.utils.project import get_project_settings
+from ..settings import *
 
 
 class JavBusSpider(Spider):
@@ -26,11 +26,10 @@ class JavBusSpider(Spider):
                 print("起始页面获取错误！")
 
     def get_detail_requests(self):
-        settings = get_project_settings()
-        db_name = settings("MYSQL_DB_NAME")
-        host = settings("MYSQL_HOST")
-        user = settings("MYSQL_USER")
-        pwd = settings("MYSQL_PASSWORD")
+        db_name = MYSQL_DB_NAME
+        host = MYSQL_HOST
+        user = MYSQL_USER
+        pwd = MYSQL_PASSWORD
         self.engine = create_engine(
             str(r"mysql+pymysql://%s:" + '%s' + "@%s/%s?charset=utf8") % (user, pwd, host, db_name)
         )
@@ -68,6 +67,6 @@ class JavBusSpider(Spider):
             print("索引页面获取错误！")
             self.get_detail_requests()
 
-    def detail_parse(self, response, **kwargs):
+    def video_parse(self, response, **kwargs):
         # //tr[contains(@class,'result')]
         pass
