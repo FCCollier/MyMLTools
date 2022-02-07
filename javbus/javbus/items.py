@@ -9,7 +9,7 @@ def replace_all(mydata):
     return mydata
 
 
-class PageItem(scrapy.Item):
+class VideoPageItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     video_id = scrapy.Field(output_processor=TakeFirst())
