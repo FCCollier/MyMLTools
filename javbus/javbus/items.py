@@ -19,5 +19,13 @@ class VideoPageItem(scrapy.Item):
     last_update = scrapy.Field(output_processor=TakeFirst())
 
 
-class DetailItem(scrapy.Item):
+class VideoItem(scrapy.Item):
+    pass
+
+
+class ActressItem(scrapy.Item):
+    pass
+
+
+class ActressPageItem(scrapy.Item):
     pass

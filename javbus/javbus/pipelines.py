@@ -1,5 +1,6 @@
 import pandas as pd
 from sqlalchemy import create_engine
+from scrapy.utils.project import get_project_settings
 
 
 class PagePipeline:
@@ -8,10 +9,11 @@ class PagePipeline:
         self.engine = None
 
     def open_spider(self, spider):
-        db_name = spider.settings.get("MYSQL_DB_NAME")
-        host = spider.settings.get("MYSQL_HOST")
-        user = spider.settings.get("MYSQL_USER")
-        pwd = spider.settings.get("MYSQL_PASSWORD")
+        settings = get_project_settings()
+        db_name = settings("MYSQL_DB_NAME")
+        host = settings("MYSQL_HOST")
+        user = settings("MYSQL_USER")
+        pwd = settings("MYSQL_PASSWORD")
         self.engine = create_engine(
             str(r"mysql+pymysql://%s:" + '%s' + "@%s/%s?charset=utf8") % (user, pwd, host, db_name)
         )
