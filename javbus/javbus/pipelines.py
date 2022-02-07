@@ -30,6 +30,7 @@ class PagePipeline:
         values(%s,%s,%s,%s,%s)
         '''
         self.db_corsor.execute(sql, values)
+        self.db_conn.commit()
         return item
 
     def close_spider(self, spider):
