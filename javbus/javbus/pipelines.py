@@ -26,7 +26,7 @@ class PagePipeline:
             item["last_update"],
         )
         sql = '''
-        insert into page_info(video_id,video_title,video_url,pub_date,last_update) 
+        insert into video_page_info(video_id,video_title,video_url,pub_date,last_update) 
         values(%s,%s,%s,%s,%s)
         '''
         self.db_corsor.execute(sql, values)

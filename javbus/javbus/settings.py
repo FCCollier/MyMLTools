@@ -46,7 +46,7 @@ ROBOTSTXT_OBEY = False
 # See also autothrottle settings and docs
 
 ## 下载延迟时间
-DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 30
 ## 随机延迟 0.5 ~ 1.5 倍数
 RANDOMIZE_DOWNLOAD_DELAY = True
 
