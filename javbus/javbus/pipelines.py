@@ -1,39 +1,38 @@
-from itemadapter import ItemAdapter
-import MySQLdb
+import pandas as pd
+from sqlalchemy import create_engine
 
 
 class PagePipeline:
+
+    def __init__(self):
+        self.engine = None
 
     def open_spider(self, spider):
         db_name = spider.settings.get("MYSQL_DB_NAME")
         host = spider.settings.get("MYSQL_HOST")
         user = spider.settings.get("MYSQL_USER")
         pwd = spider.settings.get("MYSQL_PASSWORD")
-        self.db_conn = MySQLdb.connect(
-            db=db_name,
-            host=host,
-            user=user,
-            password=pwd
+        self.engine = create_engine(
+            str(r"mysql+pymysql://%s:" + '%s' + "@%s/%s?charset=utf8") % (user, pwd, host, db_name)
         )
-        self.db_corsor = self.db_conn.cursor()
 
-    def process_item(self, item, spider):
-        values = (
-            item["video_id"],
-            item["video_title"],
-            item["video_url"],
-            item["pub_date"],
-            item["last_update"],
+    def process_item(self, item):
+        df_write = pd.DataFrame(
+            {
+                'video_id': [item["video_id"]],
+                'video_title': [item["video_title"]],
+                'video_url': [item["video_url"]],
+                'pub_date': [item["pub_date"]],
+                'last_update': [item["last_update"]]
+            }
         )
-        sql = '''
-        insert into video_page_info(video_id,video_title,video_url,pub_date,last_update) 
-        values(%s,%s,%s,%s,%s)
-        '''
-        self.db_corsor.execute(sql, values)
-        self.db_conn.commit()
+        df_write.to_sql(
+            name='video_page_info',
+            con=self.engine,
+            index=False,
+            if_exists="append"
+        )
         return item
 
-    def close_spider(self, spider):
-        self.db_conn.commit()
-        self.db_conn.close()
-        self.db_conn.close()
+    def close_spider(self):
+        self.engine.dispose()

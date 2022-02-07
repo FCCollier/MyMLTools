@@ -15,6 +15,15 @@ class JavBusSpider(Spider):
         for start_url in start_urls:
             yield Request(url=start_url, callback=self.page_parse, meta={"url": start_url})
 
+        video_urls = [
+
+        ]
+        for video_url in video_urls:
+            yield Request(url=video_url, callback=self.detail_parse)
+
+    def parse(self, response, **kwargs):
+        pass
+
     def page_parse(self, response, **kwargs):
         if response.status == 200:
             # //*[@id="waterfall"]/div
