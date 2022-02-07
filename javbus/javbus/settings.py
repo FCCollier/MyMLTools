@@ -29,7 +29,7 @@ LOG_LEVEL = "WARNING"
 
 LOG_ENABLED = True
 LOG_ENCODING = 'utf-8'
-LOG_STDOUT = True
+LOG_STDOUT = False
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'javbus (+http://www.yourdomain.com)'
@@ -46,7 +46,7 @@ ROBOTSTXT_OBEY = False
 # See also autothrottle settings and docs
 
 ## 下载延迟时间
-DOWNLOAD_DELAY = 30
+DOWNLOAD_DELAY = 1
 ## 随机延迟 0.5 ~ 1.5 倍数
 RANDOMIZE_DOWNLOAD_DELAY = True
 

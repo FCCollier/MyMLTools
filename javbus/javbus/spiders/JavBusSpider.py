@@ -27,7 +27,7 @@ class JavBusSpider(Spider):
     def page_parse(self, response, **kwargs):
         if response.status == 200:
             # //*[@id="waterfall"]/div
-            list_selector = response.xpath("//*[@id='waterfall']/div")
+            list_selector = response.xpath("//*[@id=‘waterfall’]/div")
             for one_selector in list_selector:
                 pageitem = ItemLoader(item=PageItem(), selector=one_selector)
                 # //*[@id="waterfall"]/div[1]/a/div[2]/span/date[1]
@@ -38,10 +38,10 @@ class JavBusSpider(Spider):
                 pageitem.add_xpath("video_url", "a/@href")
                 pageitem.add_xpath("pub_date", "a/div[@class='photo-info']/span/date[2]/text()")
                 pageitem.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+
                 yield pageitem.load_item()
             # //*[@id="next"]
             next_url = response.meta["url"] + response.xpath("//*[@id='next']/@href").extract_first()
-            print(next_url)
             yield Request(url=next_url, callback=self.page_parse, meta={"url": response.meta["url"]})
         else:
             print("索引页面到底！")
