@@ -1,6 +1,7 @@
 from scrapy import Request
 from scrapy.spiders import Spider
 from ..items import VideoPageItem
+from ..items import LatestUrlItem
 from scrapy.loader import ItemLoader
 import time
 from ..settings import *
@@ -45,6 +46,7 @@ class JavBusSpider(Spider):
             pageitem.add_xpath("pub_date", "div[@class='photo-info']/span/date[2]/text()")
             pageitem.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
             yield pageitem.load_item()
+        logging.warning("页面信息已提交！" + str(response.url))
 
         # //*[@id="next"]
         if response.xpath("//*[@id='next']/@href").extract_first() is not None:
@@ -53,6 +55,15 @@ class JavBusSpider(Spider):
             yield Request(url=next_url, callback=self.video_page_parse, meta={"url": response.meta["url"]})
         else:
             logging.warning("索引页不存在或者到底！:" + str(response.url))
+            # /html/body/div[4]/div/div[2]/div/div
+            url_selectors = response.xpath("/html/body/div[4]/div/div[2]/div/div")
+            for url_selector in url_selectors:
+                # /html/body/div[4]/div/div[2]/div/div[1]/a
+                latest_url_item = ItemLoader(item=LatestUrlItem(), selector=url_selector)
+                latest_url_item.add_xpath("url", "a/text()")
+                latest_url_item.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+                yield latest_url_item.load_item()
+            logging.warning("最新地址列表已提交！")
 
     def video_parse(self, response, **kwargs):
         # //tr[contains(@class,'result')]
