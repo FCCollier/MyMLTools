@@ -1,8 +1,8 @@
 import mysql.connector
 from .settings import *
-import logging
 from .items import VideoPageItem
 from .items import LatestUrlItem
+import logging
 
 
 class PagePipeline:
@@ -55,13 +55,13 @@ class PagePipeline:
                         '''
                 self.db_cursor.execute(sql, values)
                 self.db_conn.commit()
-                logging.warning(msg="告警信息：" + str(e))
-                logging.warning(item["video_id"] + "更新成功！")
+                logging.warning(msg="警告信息：" + str(e))
+                logging.warning(item["video_id"] + "：更新成功！")
             except BaseException as e:
                 self.db_conn.rollback()
                 logging.error(msg="错误信息：" + str(e))
             else:
-                logging.warning(item["video_id"] + "插入成功！")
+                logging.warning(item["video_id"] + "：插入成功！")
         elif isinstance(item, LatestUrlItem):
             try:
                 values = (
@@ -86,13 +86,13 @@ class PagePipeline:
                         '''
                 self.db_cursor.execute(sql, values)
                 self.db_conn.commit()
-                logging.warning(msg="告警信息：" + str(e))
-                logging.warning(item["url"] + "更新成功！")
+                logging.warning(msg="警告信息：" + str(e))
+                logging.warning(item["url"] + "：更新成功！")
             except BaseException as e:
                 self.db_conn.rollback()
                 logging.error(msg="错误信息：" + str(e))
             else:
-                logging.warning(item["url"] + "插入成功！")
+                logging.warning(item["url"] + "：插入成功！")
         else:
             pass
         return item
