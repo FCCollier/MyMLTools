@@ -8,6 +8,7 @@ import random
 from scrapy import signals
 from scrapy.downloadermiddlewares.useragent import UserAgentMiddleware
 from fake_useragent import UserAgent
+import logging
 
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
@@ -17,7 +18,7 @@ class JavBusUserAgentMiddleware(UserAgentMiddleware):
     def process_request(self, request, spider):
         ua = UserAgent()
         request.headers['User-Agent'] = ua.random
-        print("浏览器代理：", request.headers['User-Agent'])
+        logging.warning(msg="浏览器代理：" + str(request.headers['User-Agent']))
 
 
 class JavbusSpiderMiddleware:
