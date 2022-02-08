@@ -21,6 +21,7 @@ START_URLS = [
 # 数据库设置
 MYSQL_DB_NAME = "javbus"
 MYSQL_HOST = "82.157.160.44"
+# MYSQL_HOST = "127.0.0.1"
 MYSQL_USER = "myscrapy"
 MYSQL_PASSWORD = "ReAwVFYtePgkSQcI"
 
