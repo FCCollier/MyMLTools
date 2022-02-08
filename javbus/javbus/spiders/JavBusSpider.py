@@ -12,10 +12,13 @@ class JavBusSpider(Spider):
 
     def start_requests(self):
         start_urls = [
-            "https://www.busfan.club"
+            "https://www.busfan.club",
         ]
         for start_url in start_urls:
-            yield Request(url=start_url, callback=self.video_page_parse, meta={"url": start_url})
+            if Request(url=start_url, callback=self.video_page_parse, meta={"url": start_url}):
+                yield Request(url=start_url, callback=self.video_page_parse, meta={"url": start_url})
+            else:
+                logging.error("起始页面无法获取！页面地址：" + start_url)
 
     def get_detail_requests(self):
         pass
@@ -42,9 +45,9 @@ class JavBusSpider(Spider):
             yield pageitem.load_item()
 
         # //*[@id="next"]
-        next_url = response.meta["url"] + response.xpath("//*[@id='next']/@href").extract_first()
         if response.xpath("//*[@id='next']/@href").extract_first():
-            logging.warning(msg=str("索引页地址：" + next_url))
+            next_url = response.meta["url"] + response.xpath("//*[@id='next']/@href").extract_first()
+            logging.info(msg=str("索引页地址：" + next_url))
             yield Request(url=next_url, callback=self.video_page_parse, meta={"url": response.meta["url"]})
         else:
             logging.warning("索引页不存在或者到底！爬取信息：" + response.xpath("//*[@id='next']/@href").extract_first())
