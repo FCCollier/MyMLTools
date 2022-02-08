@@ -36,7 +36,7 @@ class PagePipeline:
                     '''
             self.db_cursor.execute(sql, values)
             self.db_conn.commit()
-        except mysql.connector.errors.IntegrityError:
+        except mysql.connector.errors.IntegrityError as e:
             values = (
                 item["video_title"],
                 item["video_url"],
@@ -51,9 +51,11 @@ class PagePipeline:
                     '''
             self.db_cursor.execute(sql, values)
             self.db_conn.commit()
+            print("错误类型：", e)
             print(item["video_id"], "更新成功！")
-        except BaseException:
+        except BaseException as e:
             self.db_conn.rollback()
+            print("错误类型：", e)
             print(item["video_id"], "事务回滚！")
         else:
             print(item["video_id"], "插入成功！")
