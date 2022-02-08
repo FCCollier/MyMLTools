@@ -20,7 +20,14 @@ class VideoPageItem(scrapy.Item):
 
 
 class VideoItem(scrapy.Item):
-    pass
+    video_id = scrapy.Field(output_processor=TakeFirst())
+    video_title = scrapy.Field(output_processor=TakeFirst())
+    pub_date = scrapy.Field(output_processor=TakeFirst())
+    length = scrapy.Field(output_processor=TakeFirst())
+    director = scrapy.Field(output_processor=TakeFirst())
+    studio = scrapy.Field(output_processor=TakeFirst())
+    label = scrapy.Field(output_processor=TakeFirst())
+    series = scrapy.Field(output_processor=TakeFirst())
 
 
 class ActressItem(scrapy.Item):

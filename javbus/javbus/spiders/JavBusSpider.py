@@ -5,20 +5,23 @@ from scrapy.loader import ItemLoader
 import time
 from ..settings import *
 import logging
+import requests
 
 
 class JavBusSpider(Spider):
     name = "javbus"
 
     def start_requests(self):
-        start_urls = [
-            "https://www.busfan.club",
-        ]
+        start_urls = START_URLS
         for start_url in start_urls:
-            if Request(url=start_url, callback=self.video_page_parse, meta={"url": start_url}):
-                yield Request(url=start_url, callback=self.video_page_parse, meta={"url": start_url})
-            else:
+            try:
+                requests.get(start_url)
+            except requests.exceptions.ConnectionError as e:
+                logging.error("起始页面无法获取！错误信息：" + str(e))
                 logging.error("起始页面无法获取！页面地址：" + start_url)
+            else:
+                yield Request(url=start_url, callback=self.video_page_parse, meta={"url": start_url})
+                logging.info(msg="起始页面压入：" + start_url)
 
     def get_detail_requests(self):
         pass
@@ -45,12 +48,12 @@ class JavBusSpider(Spider):
             yield pageitem.load_item()
 
         # //*[@id="next"]
-        if response.xpath("//*[@id='next']/@href").extract_first():
+        if response.xpath("//*[@id='next']/@href").extract_first() is not None:
             next_url = response.meta["url"] + response.xpath("//*[@id='next']/@href").extract_first()
             logging.info(msg=str("索引页地址：" + next_url))
             yield Request(url=next_url, callback=self.video_page_parse, meta={"url": response.meta["url"]})
         else:
-            logging.warning("索引页不存在或者到底！爬取信息：" + response.xpath("//*[@id='next']/@href").extract_first())
+            logging.warning("索引页不存在或者到底！:" + str(response.url))
 
     def video_parse(self, response, **kwargs):
         # //tr[contains(@class,'result')]

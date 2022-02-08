@@ -12,6 +12,12 @@ BOT_NAME = 'javbus'
 SPIDER_MODULES = ['javbus.spiders']
 NEWSPIDER_MODULE = 'javbus.spiders'
 
+# 起始地址设置
+START_URLS = [
+    # "https://www.busfan.club/page/140",
+    "https://www.busfan.club",
+]
+
 # 数据库设置
 MYSQL_DB_NAME = "javbus"
 MYSQL_HOST = "82.157.160.44"
@@ -20,7 +26,7 @@ MYSQL_PASSWORD = "ReAwVFYtePgkSQcI"
 
 # 日志设置
 LOG_FILE = "./javbus.log"
-LOG_LEVEL = "WARNING"
+LOG_LEVEL = "INFO"
 # CRITICAL - 严重错误(critical)
 # ERROR - 一般错误(regular errors)
 # WARNING - 警告信息(warning messages)
