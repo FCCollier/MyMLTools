@@ -10,10 +10,6 @@ import logging
 class JavBusSpider(Spider):
     name = "javbus"
 
-    def __init__(self, **kwargs):
-        super().__init__(**kwargs)
-        self.engine = None
-
     def start_requests(self):
         start_urls = [
             "https://www.busfan.club"
