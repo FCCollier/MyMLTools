@@ -15,10 +15,7 @@ class JavBusSpider(Spider):
             "https://www.busfan.club"
         ]
         for start_url in start_urls:
-            try:
-                yield Request(url=start_url, callback=self.video_page_parse, meta={"url": start_url})
-            except TypeError:
-                logging.debug()
+            yield Request(url=start_url, callback=self.video_page_parse, meta={"url": start_url})
 
     def get_detail_requests(self):
         pass
@@ -44,14 +41,13 @@ class JavBusSpider(Spider):
             pageitem.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
             yield pageitem.load_item()
 
-        try:
-            # //*[@id="next"]
-            next_url = response.meta["url"] + response.xpath("//*[@id='next']/@href").extract_first()
-            print(next_url)
+        # //*[@id="next"]
+        next_url = response.meta["url"] + response.xpath("//*[@id='next']/@href").extract_first()
+        if response.xpath("//*[@id='next']/@href").extract_first():
+            logging.warning(msg=str("索引页地址：" + next_url))
             yield Request(url=next_url, callback=self.video_page_parse, meta={"url": response.meta["url"]})
-        except TypeError:
-            print("索引页面获取错误！")
-            self.get_detail_requests()
+        else:
+            logging.warning("索引页不存在或者到底！爬取信息：" + response.xpath("//*[@id='next']/@href").extract_first())
 
     def video_parse(self, response, **kwargs):
         # //tr[contains(@class,'result')]
