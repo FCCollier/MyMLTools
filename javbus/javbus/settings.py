@@ -26,7 +26,7 @@ MYSQL_PASSWORD = "ReAwVFYtePgkSQcI"
 
 # 日志设置
 LOG_FILE = "./javbus.log"
-LOG_LEVEL = "INFO"
+LOG_LEVEL = "WARNING"
 # CRITICAL - 严重错误(critical)
 # ERROR - 一般错误(regular errors)
 # WARNING - 警告信息(warning messages)

@@ -52,13 +52,13 @@ class PagePipeline:
                     '''
             self.db_cursor.execute(sql, values)
             self.db_conn.commit()
-            logging.info(msg="告警类型：" + str(e))
-            logging.info(item["video_id"] + "更新成功！")
+            logging.warning(msg="告警类型：" + str(e))
+            logging.warning(item["video_id"] + "更新成功！")
         except BaseException as e:
             self.db_conn.rollback()
-            logging.warning(msg="错误类型：" + str(e))
+            logging.error(msg="错误类型：" + str(e))
         else:
-            logging.info(item["video_id"] + "插入成功！")
+            logging.warning(item["video_id"] + "插入成功！")
         return item
 
     def close_spider(self, spider):

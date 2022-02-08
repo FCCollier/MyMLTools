@@ -17,11 +17,10 @@ class JavBusSpider(Spider):
             try:
                 requests.get(start_url)
             except requests.exceptions.ConnectionError as e:
-                logging.error("起始页面无法获取！错误信息：" + str(e))
-                logging.error("起始页面无法获取！页面地址：" + start_url)
+                logging.error("起始页面无法获取！错误信息：" + start_url + str(e))
             else:
                 yield Request(url=start_url, callback=self.video_page_parse, meta={"url": start_url})
-                logging.info(msg="起始页面压入：" + start_url)
+                logging.warning(msg="起始页面压入：" + start_url)
 
     def get_detail_requests(self):
         pass
@@ -50,7 +49,7 @@ class JavBusSpider(Spider):
         # //*[@id="next"]
         if response.xpath("//*[@id='next']/@href").extract_first() is not None:
             next_url = response.meta["url"] + response.xpath("//*[@id='next']/@href").extract_first()
-            logging.info(msg=str("索引页地址：" + next_url))
+            logging.warning(msg=str("索引页地址：" + next_url))
             yield Request(url=next_url, callback=self.video_page_parse, meta={"url": response.meta["url"]})
         else:
             logging.warning("索引页不存在或者到底！:" + str(response.url))
