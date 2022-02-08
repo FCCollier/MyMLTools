@@ -3,9 +3,8 @@ from scrapy.spiders import Spider
 from ..items import VideoPageItem
 from scrapy.loader import ItemLoader
 import time
-import pandas as pd
-from sqlalchemy import create_engine
 from ..settings import *
+import logging
 
 
 class JavBusSpider(Spider):
@@ -23,19 +22,10 @@ class JavBusSpider(Spider):
             try:
                 yield Request(url=start_url, callback=self.video_page_parse, meta={"url": start_url})
             except TypeError:
-                print("起始页面获取错误！")
+                logging.debug()
 
     def get_detail_requests(self):
-        db_name = MYSQL_DB_NAME
-        host = MYSQL_HOST
-        user = MYSQL_USER
-        pwd = MYSQL_PASSWORD
-        self.engine = create_engine(
-            str(r"mysql+pymysql://%s:" + '%s' + "@%s/%s?charset=utf8") % (user, pwd, host, db_name)
-        )
-        sql_query = 'select * from video_page_info;'
-        df_read = pd.read_sql_query(sql_query, self.engine)
-        print(df_read)
+        pass
 
     def get_actress_requests(self):
         pass
