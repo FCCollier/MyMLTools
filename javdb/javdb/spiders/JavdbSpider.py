@@ -3,7 +3,6 @@ from scrapy.spiders import Spider
 from scrapy.loader import ItemLoader
 from ..items import PageItem
 import time
-import browsercookie
 
 
 class JavdbSpider(Spider):
@@ -45,8 +44,3 @@ class JavdbSpider(Spider):
         pass
 
 
-if __name__ == "__main__":
-
-    cookiejar = browsercookie.chrome()
-    for cookie in cookiejar:
-        print(cookie)
