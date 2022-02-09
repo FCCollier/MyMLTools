@@ -19,6 +19,9 @@ class JavBusSpider(Spider):
         super().__init__(**kwargs)
         logging.warning("爬虫开始！")
 
+    def __del__(self):
+        logging.warning("爬虫结束！")
+
     def start_requests(self):
 
         start_urls = START_URLS
@@ -88,7 +91,6 @@ class JavBusSpider(Spider):
                 logging.warning("最新地址列表项目已提交！:" + latest_url_item.load_item()["url"])
                 logging.warning("最新地址列表项目爬取完毕！")
             logging.warning("最新地址列表爬取完毕！")
-        logging.warning("爬虫结束！")
 
     def video_parse(self, response, **kwargs):
         # //tr[contains(@class,'result')]
