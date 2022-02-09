@@ -23,8 +23,10 @@ class PagePipeline:
             database=db_name
         )
         self.db_cursor = self.db_conn.cursor()
+        logging.warning("数据库连接创建完毕，数据库游标创建完毕！")
 
     def process_item(self, item, spider):
+        logging.warning("管道项目处理开始：")
         if isinstance(item, VideoPageItem):
             try:
                 values = (
@@ -56,12 +58,12 @@ class PagePipeline:
                 self.db_cursor.execute(sql, values)
                 self.db_conn.commit()
                 logging.warning(msg="警告信息：" + str(e))
-                logging.warning(item["video_id"] + "：更新成功！")
+                logging.warning("更新成功！：" + item["video_id"])
             except BaseException as e:
                 self.db_conn.rollback()
                 logging.error(msg="错误信息：" + str(e))
             else:
-                logging.warning(item["video_id"] + "：插入成功！")
+                logging.warning("插入成功！：" + item["video_id"])
         elif isinstance(item, LatestUrlItem):
             try:
                 values = (
@@ -87,16 +89,18 @@ class PagePipeline:
                 self.db_cursor.execute(sql, values)
                 self.db_conn.commit()
                 logging.warning(msg="警告信息：" + str(e))
-                logging.warning(item["url"] + "：更新成功！")
+                logging.warning("更新成功！：" + item["url"])
             except BaseException as e:
                 self.db_conn.rollback()
                 logging.error(msg="错误信息：" + str(e))
             else:
-                logging.warning(item["url"] + "：插入成功！")
+                logging.warning("插入成功！：" + item["url"])
         else:
             logging.warning("未找到对应的Item类！")
+        logging.warning("管道项目处理结束。")
         return item
 
     def close_spider(self, spider):
         self.db_cursor.close()
         self.db_conn.close()
+        logging.warning("数据库游标关闭，数据库连接关闭！")
