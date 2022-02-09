@@ -94,7 +94,7 @@ class PagePipeline:
             else:
                 logging.warning(item["url"] + "：插入成功！")
         else:
-            pass
+            logging.warning("未找到对应的Item类！")
         return item
 
     def close_spider(self, spider):

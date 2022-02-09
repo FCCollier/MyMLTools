@@ -15,7 +15,7 @@ NEWSPIDER_MODULE = 'javbus.spiders'
 # 起始地址设置
 START_URLS = [
     # "https://www.busfan.club/page/140",
-    "https://www.busfan.club",
+    "https://www.busfan.club1",
 ]
 
 # 数据库设置

@@ -4,8 +4,8 @@ from ..items import VideoPageItem
 from ..items import LatestUrlItem
 from scrapy.loader import ItemLoader
 import time
+import logging
 from ..settings import *
-import requests
 from scrapy.spidermiddlewares.httperror import HttpError
 from twisted.internet.error import DNSLookupError
 from twisted.internet.error import TimeoutError, TCPTimedOutError
@@ -17,13 +17,8 @@ class JavBusSpider(Spider):
     def start_requests(self):
         start_urls = START_URLS
         for start_url in start_urls:
-            try:
-                requests.get(start_url)
-            except requests.exceptions.ConnectionError as e:
-                self.logger.error("起始页面无法获取！错误信息：" + start_url + str(e))
-            else:
-                yield Request(url=start_url, callback=self.video_page_parse, meta={"url": start_url})
-                self.logger.warning(msg="起始页面压入：" + start_url)
+            yield Request(url=start_url, callback=self.video_page_parse, errback=self.parse_err,
+                          meta={"url": start_url})
 
     def get_detail_requests(self):
         pass
@@ -48,15 +43,16 @@ class JavBusSpider(Spider):
             pageitem.add_xpath("pub_date", "div[@class='photo-info']/span/date[2]/text()")
             pageitem.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
             yield pageitem.load_item()
-        self.logger.warning("页面信息已提交！" + str(response.url))
+        logging.warning("页面信息已提交！" + str(response.url))
 
         # //*[@id="next"]
         if response.xpath("//*[@id='next']/@href").extract_first() is not None:
             next_url = response.meta["url"] + response.xpath("//*[@id='next']/@href").extract_first()
-            self.logger.warning(msg=str("索引页地址：" + next_url))
-            yield Request(url=next_url, callback=self.video_page_parse, meta={"url": response.meta["url"]})
+            logging.warning(msg=str("索引页地址：" + next_url))
+            yield Request(url=next_url, callback=self.video_page_parse, errback=self.parse_err,
+                          meta={"url": response.meta["url"]})
         else:
-            self.logger.warning("索引页不存在或者到底！:" + str(response.url))
+            logging.warning("索引页不存在或者到底！:" + str(response.url))
             # /html/body/div[4]/div/div[2]/div/div
             url_selectors = response.xpath("/html/body/div[4]/div/div[2]/div/div")
             for url_selector in url_selectors:
@@ -65,7 +61,7 @@ class JavBusSpider(Spider):
                 latest_url_item.add_xpath("url", "a/text()")
                 latest_url_item.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
                 yield latest_url_item.load_item()
-            self.logger.warning("最新地址列表已提交！")
+            logging.warning("最新地址列表已提交！")
 
     def video_parse(self, response, **kwargs):
         # //tr[contains(@class,'result')]
@@ -74,7 +70,8 @@ class JavBusSpider(Spider):
     def parse_err(self, failure):
         print('*' * 30)
         # log all failures
-        self.logger.error(repr(failure))
+        logging.error("JavBusSpider 错误！")
+        logging.error(repr(failure))
 
         # in case you want to do something special for some errors,
         # you may need the failure's type:
@@ -83,17 +80,16 @@ class JavBusSpider(Spider):
             # these exceptions come from HttpError spider middleware
             # you can get the non-200 response
             response = failure.value.response
-            self.logger.error('错误类型： HttpError on %s', response.url)
+            logging.error('错误类型： HttpError on %s', response.url)
 
         elif failure.check(DNSLookupError):
             # this is the original request
             request = failure.request
-            self.logger.error('错误类型：DNSLookupError on %s', request.url)
+            logging.error('错误类型：DNSLookupError on %s', request.url)
 
         elif failure.check(TimeoutError, TCPTimedOutError):
             request = failure.request
-            self.logger.error('错误类型：TimeoutError on %s', request.url)
+            logging.error('错误类型：TimeoutError on %s', request.url)
 
         else:
-            self.logger.error('错误类型：其他错误。')
-
+            logging.error('错误类型：其他错误。')
