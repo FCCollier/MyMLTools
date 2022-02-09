@@ -57,12 +57,13 @@ class JavBusSpider(Spider):
             pageitem.add_xpath("video_url", "@href")
             pageitem.add_xpath("pub_date", "div[@class='photo-info']/span/date[2]/text()")
             pageitem.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-            logging.warning("项目信息准备提交！：" + pageitem.load_item()["video_id"])
-            yield pageitem.load_item()
-            logging.warning("项目信息已提交！：" + pageitem.load_item()["video_id"])
             logging.warning("详情信息准备压入！：" + pageitem.load_item()["video_id"])
             yield Request(url=pageitem.load_item()["video_url"], callback=self.video_parse, errback=self.parse_err)
             logging.warning("详情信息已压入！：" + pageitem.load_item()["video_id"])
+            logging.warning("项目信息准备提交！：" + pageitem.load_item()["video_id"])
+            yield pageitem.load_item()
+            logging.warning("项目信息已提交！：" + pageitem.load_item()["video_id"])
+
             logging.warning("项目信息爬取完毕！")
         logging.warning("索引页爬取完毕！：" + str(response.url))
 
@@ -95,11 +96,20 @@ class JavBusSpider(Spider):
     def video_parse(self, response, **kwargs):
         # //tr[contains(@class,'result')]
         logging.warning("详情信息页开始爬取！：" + str(response.url))
-        list_selector = response.xpath("//a[@class='movie-box']")
+        # /html/body/div[5]
+        list_selector = response.xpath("//div[@class='container']")
         for one_selector in list_selector:
             logging.warning("详情信息项目开始爬取！")
             videoitem = ItemLoader(item=VideoItem(), selector=one_selector)
-            videoitem.add_xpath("video_id", "")
+            videoitem.add_xpath("video_id", "//span[contains(text(),'識別碼:')]/../span[2]/text()")
+            videoitem.add_xpath("video_title", "//a[@class='bigImage']/img/@title")
+            videoitem.add_xpath("premiered", "//span[contains(text(),'發行日期:')]/../text()")
+            videoitem.add_xpath("runtime", "//span[contains(text(),'長度:')]/../text()")
+            videoitem.add_xpath("director", "//span[contains(text(),'導演:')]/../a/text()")
+            videoitem.add_xpath("studio", "//span[contains(text(),'製作商:')]/../a/text()")
+            videoitem.add_xpath("label", "//span[contains(text(),'發行商:')]/../a/text()")
+            videoitem.add_xpath("series", "//span[contains(text(),'系列:')]/../a/text()")
+            videoitem.add_xpath("bigimg", "//a[@class='bigImage']/@href")
             videoitem.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
             logging.warning("详情信息项目准备提交！：" + videoitem.load_item()["video_id"])
             yield videoitem.load_item()
@@ -108,7 +118,6 @@ class JavBusSpider(Spider):
         logging.warning("详情信息页爬取完毕！：" + str(response.url))
 
     def parse_err(self, failure):
-        print('*' * 30)
         # log all failures
         logging.error("JavBusSpider 错误！")
         logging.error(repr(failure))

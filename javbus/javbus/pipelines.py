@@ -1,6 +1,7 @@
 import mysql.connector
 from .settings import *
 from .items import VideoPageItem
+from .items import VideoItem
 from .items import LatestUrlItem
 import logging
 import platform
@@ -99,6 +100,31 @@ class PagePipeline:
                 logging.error(msg="错误信息：" + str(e))
             else:
                 logging.warning("插入成功！：" + item["url"])
+        elif isinstance(item, VideoItem):
+            try:
+                values = (
+                    item["video_id"],
+                    item["video_title"],
+                    item["premiered"],
+                    item["runtime"],
+                    item["director"],
+                    item["studio"],
+                    item["label"],
+                    item["series"],
+                    item["bigimg"],
+                    item["last_update"],
+                )
+                sql = '''
+                        insert into video_info(video_id,video_title,premiered,runtime,director,studio,label,series,bigimg,last_update) 
+                        values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+                        '''
+                self.db_cursor.execute(sql, values)
+                self.db_conn.commit()
+            except mysql.connector.errors.IntegrityError as e:
+                logging.warning(msg="警告信息：" + str(e))
+                logging.warning("更新成功！：" + item["video_id"])
+            else:
+                logging.warning("插入成功！：" + item["video_id"])
         else:
             logging.warning("未找到对应的Item类！")
         logging.warning("管道项目处理结束。")
