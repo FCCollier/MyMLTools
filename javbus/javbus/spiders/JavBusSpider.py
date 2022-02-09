@@ -22,12 +22,13 @@ class JavBusSpider(Spider):
     def start_requests(self):
 
         start_urls = START_URLS
+        logging.warning("起始页开始爬取！！")
         for start_url in start_urls:
             logging.warning("起始页准备压入！：" + str(start_url))
             yield Request(url=start_url, callback=self.video_page_parse, errback=self.parse_err,
                           meta={"url": start_url})
             logging.warning("起始页已压入！：" + str(start_url))
-        logging.warning("起始页压入完毕！")
+        logging.warning("起始页爬取完毕！")
 
     def get_detail_requests(self):
         pass
@@ -85,6 +86,7 @@ class JavBusSpider(Spider):
                 logging.warning("最新地址列表项目准备提交！:" + latest_url_item.load_item()["url"])
                 yield latest_url_item.load_item()
                 logging.warning("最新地址列表项目已提交！:" + latest_url_item.load_item()["url"])
+                logging.warning("最新地址列表项目爬取完毕！")
             logging.warning("最新地址列表爬取完毕！")
         logging.warning("爬虫结束！")
 
