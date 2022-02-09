@@ -55,7 +55,7 @@ class JavBusSpider(Spider):
             yield Request(url=pageitem.load_item()["video_url"], callback=self.video_parse, errback=self.parse_err)
             logging.warning("详情信息已压入！：" + pageitem.load_item()["video_id"])
         logging.warning("索引页信息已提交！：" + str(response.url))
-        logging.warning("爬虫结束！")
+
 
         # //*[@id="next"]
         if response.xpath("//*[@id='next']/@href").extract_first() is not None:
@@ -75,6 +75,7 @@ class JavBusSpider(Spider):
                 latest_url_item.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
                 yield latest_url_item.load_item()
             logging.warning("最新地址列表已提交！")
+            logging.warning("爬虫结束！")
 
     def video_parse(self, response, **kwargs):
         # //tr[contains(@class,'result')]
