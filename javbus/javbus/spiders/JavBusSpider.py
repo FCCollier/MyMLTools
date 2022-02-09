@@ -54,7 +54,7 @@ class JavBusSpider(Spider):
             logging.warning("详情信息准备压入！：" + pageitem.load_item()["video_id"])
             yield Request(url=pageitem.load_item()["video_url"], callback=self.video_parse, errback=self.parse_err)
             logging.warning("详情信息已压入！：" + pageitem.load_item()["video_id"])
-        logging.warning("索引页信息已提交！：" + str(response.url))
+        logging.warning("索引页信息爬取完毕！：" + str(response.url))
 
 
         # //*[@id="next"]
@@ -66,15 +66,20 @@ class JavBusSpider(Spider):
             logging.warning(msg=str("下一个索引页地址已压入！：" + next_url))
         else:
             logging.warning("索引页不存在或者到底！:" + str(response.url))
+
+            logging.warning("最新地址列表开始爬取！")
             # /html/body/div[4]/div/div[2]/div/div
             url_selectors = response.xpath("/html/body/div[4]/div/div[2]/div/div")
             for url_selector in url_selectors:
+                logging.warning("最新地址列表项目开始爬取！")
                 # /html/body/div[4]/div/div[2]/div/div[1]/a
                 latest_url_item = ItemLoader(item=LatestUrlItem(), selector=url_selector)
                 latest_url_item.add_xpath("url", "a/text()")
                 latest_url_item.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+                logging.warning("最新地址列表项目准备提交！:" + latest_url_item.load_item()["url"])
                 yield latest_url_item.load_item()
-            logging.warning("最新地址列表已提交！")
+                logging.warning("最新地址列表项目已提交！:" + latest_url_item.load_item()["url"])
+            logging.warning("最新地址列表爬取完毕！")
             logging.warning("爬虫结束！")
 
     def video_parse(self, response, **kwargs):

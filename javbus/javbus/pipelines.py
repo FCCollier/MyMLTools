@@ -27,7 +27,7 @@ class PagePipeline:
             database=db_name
         )
         self.db_cursor = self.db_conn.cursor()
-        logging.warning("数据库连接创建完毕，数据库游标创建完毕！")
+        logging.warning("数据库连接创建完毕，数据库游标创建完毕！数据库地址：" + str(host))
 
     def process_item(self, item, spider):
         logging.warning("管道项目处理开始：")
