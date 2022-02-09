@@ -2,6 +2,7 @@ from scrapy import Request
 from scrapy.spiders import Spider
 from ..items import VideoPageItem
 from ..items import LatestUrlItem
+from ..items import VideoItem
 from scrapy.loader import ItemLoader
 import time
 import logging
@@ -14,8 +15,12 @@ from twisted.internet.error import TimeoutError, TCPTimedOutError
 class JavBusSpider(Spider):
     name = "javbus"
 
-    def start_requests(self):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         logging.warning("爬虫开始！")
+
+    def start_requests(self):
+
         start_urls = START_URLS
         for start_url in start_urls:
             logging.warning("起始页准备压入！：" + str(start_url))
@@ -54,7 +59,8 @@ class JavBusSpider(Spider):
             logging.warning("详情信息准备压入！：" + pageitem.load_item()["video_id"])
             yield Request(url=pageitem.load_item()["video_url"], callback=self.video_parse, errback=self.parse_err)
             logging.warning("详情信息已压入！：" + pageitem.load_item()["video_id"])
-        logging.warning("索引页信息爬取完毕！：" + str(response.url))
+            logging.warning("项目信息爬取完毕！")
+        logging.warning("索引页爬取完毕！：" + str(response.url))
 
 
         # //*[@id="next"]
@@ -80,11 +86,18 @@ class JavBusSpider(Spider):
                 yield latest_url_item.load_item()
                 logging.warning("最新地址列表项目已提交！:" + latest_url_item.load_item()["url"])
             logging.warning("最新地址列表爬取完毕！")
-            logging.warning("爬虫结束！")
+        logging.warning("爬虫结束！")
 
     def video_parse(self, response, **kwargs):
         # //tr[contains(@class,'result')]
-        pass
+        logging.warning("详情信息开始爬取！：" + str(response.url))
+        list_selector = response.xpath("//a[@class='movie-box']")
+        for one_selector in list_selector:
+            logging.warning("详情信息开始爬取！")
+            videoitem = ItemLoader(item=VideoItem(), selector=one_selector)
+            videoitem.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+            logging.warning("详情信息爬取完毕！")
+        logging.warning("详情信息爬取完毕！：" + str(response.url))
 
     def parse_err(self, failure):
         print('*' * 30)

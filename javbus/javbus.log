@@ -1,0 +1,1230 @@
+2022-02-09 12:16:27 [root] WARNING: 爬虫开始！
+2022-02-09 12:16:27 [root] WARNING: 数据库连接创建完毕，数据库游标创建完毕！数据库地址：82.157.160.44
+2022-02-09 12:16:27 [root] WARNING: 起始页准备压入！：https://www.busfan.club
+2022-02-09 12:16:27 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
+2022-02-09 12:16:27 [root] WARNING: 起始页已压入！：https://www.busfan.club
+2022-02-09 12:16:27 [root] WARNING: 起始页压入完毕！
+2022-02-09 12:16:28 [root] WARNING: 索引页开始爬取！：https://www.busfan.club
+2022-02-09 12:16:28 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:28 [root] WARNING: 项目信息准备提交！：ETQR-347
+2022-02-09 12:16:28 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:28 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'ETQR-347' for key 'PRIMARY'
+2022-02-09 12:16:28 [root] WARNING: 更新成功！：ETQR-347
+2022-02-09 12:16:28 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:28 [root] WARNING: 项目信息已提交！：ETQR-347
+2022-02-09 12:16:28 [root] WARNING: 详情信息准备压入！：ETQR-347
+2022-02-09 12:16:28 [root] WARNING: 详情信息已压入！：ETQR-347
+2022-02-09 12:16:28 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:28 [root] WARNING: 项目信息准备提交！：ETQR-349
+2022-02-09 12:16:28 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:28 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'ETQR-349' for key 'PRIMARY'
+2022-02-09 12:16:28 [root] WARNING: 更新成功！：ETQR-349
+2022-02-09 12:16:28 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:28 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1623.0 Safari/537.36'
+2022-02-09 12:16:28 [root] WARNING: 项目信息已提交！：ETQR-349
+2022-02-09 12:16:28 [root] WARNING: 详情信息准备压入！：ETQR-349
+2022-02-09 12:16:28 [root] WARNING: 详情信息已压入！：ETQR-349
+2022-02-09 12:16:28 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:28 [root] WARNING: 项目信息准备提交！：TOTTE-038
+2022-02-09 12:16:28 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:28 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'TOTTE-038' for key 'PRIMARY'
+2022-02-09 12:16:28 [root] WARNING: 更新成功！：TOTTE-038
+2022-02-09 12:16:28 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:28 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36'
+2022-02-09 12:16:28 [root] WARNING: 项目信息已提交！：TOTTE-038
+2022-02-09 12:16:28 [root] WARNING: 详情信息准备压入！：TOTTE-038
+2022-02-09 12:16:28 [root] WARNING: 详情信息已压入！：TOTTE-038
+2022-02-09 12:16:28 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:28 [root] WARNING: 项目信息准备提交！：ETQR-348
+2022-02-09 12:16:28 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:28 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'ETQR-348' for key 'PRIMARY'
+2022-02-09 12:16:28 [root] WARNING: 更新成功！：ETQR-348
+2022-02-09 12:16:28 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:28 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36'
+2022-02-09 12:16:28 [root] WARNING: 项目信息已提交！：ETQR-348
+2022-02-09 12:16:28 [root] WARNING: 详情信息准备压入！：ETQR-348
+2022-02-09 12:16:28 [root] WARNING: 详情信息已压入！：ETQR-348
+2022-02-09 12:16:28 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:28 [root] WARNING: 项目信息准备提交！：TOTTE-037
+2022-02-09 12:16:28 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:29 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'TOTTE-037' for key 'PRIMARY'
+2022-02-09 12:16:29 [root] WARNING: 更新成功！：TOTTE-037
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:29 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.16 Safari/537.36'
+2022-02-09 12:16:29 [root] WARNING: 项目信息已提交！：TOTTE-037
+2022-02-09 12:16:29 [root] WARNING: 详情信息准备压入！：TOTTE-037
+2022-02-09 12:16:29 [root] WARNING: 详情信息已压入！：TOTTE-037
+2022-02-09 12:16:29 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:29 [root] WARNING: 项目信息准备提交！：CEMD-126
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:29 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'CEMD-126' for key 'PRIMARY'
+2022-02-09 12:16:29 [root] WARNING: 更新成功！：CEMD-126
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:29 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.2 Safari/537.36'
+2022-02-09 12:16:29 [root] WARNING: 项目信息已提交！：CEMD-126
+2022-02-09 12:16:29 [root] WARNING: 详情信息准备压入！：CEMD-126
+2022-02-09 12:16:29 [root] WARNING: 详情信息已压入！：CEMD-126
+2022-02-09 12:16:29 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:29 [root] WARNING: 项目信息准备提交！：SQIS-065
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:29 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'SQIS-065' for key 'PRIMARY'
+2022-02-09 12:16:29 [root] WARNING: 更新成功！：SQIS-065
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:29 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.15 (KHTML, like Gecko) Chrome/24.0.1295.0 Safari/537.15'
+2022-02-09 12:16:29 [root] WARNING: 项目信息已提交！：SQIS-065
+2022-02-09 12:16:29 [root] WARNING: 详情信息准备压入！：SQIS-065
+2022-02-09 12:16:29 [root] WARNING: 详情信息已压入！：SQIS-065
+2022-02-09 12:16:29 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:29 [root] WARNING: 项目信息准备提交！：HOKS-112
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:29 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'HOKS-112' for key 'PRIMARY'
+2022-02-09 12:16:29 [root] WARNING: 更新成功！：HOKS-112
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:29 [root] WARNING: 浏览器代理：b'Opera/9.80 (Windows NT 6.1; U; en-US) Presto/2.7.62 Version/11.01'
+2022-02-09 12:16:29 [root] WARNING: 项目信息已提交！：HOKS-112
+2022-02-09 12:16:29 [root] WARNING: 详情信息准备压入！：HOKS-112
+2022-02-09 12:16:29 [root] WARNING: 详情信息已压入！：HOKS-112
+2022-02-09 12:16:29 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:29 [root] WARNING: 项目信息准备提交！：NSFS-065
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:29 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'NSFS-065' for key 'PRIMARY'
+2022-02-09 12:16:29 [root] WARNING: 更新成功！：NSFS-065
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:29 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:25.0) Gecko/20100101 Firefox/25.0'
+2022-02-09 12:16:29 [root] WARNING: 项目信息已提交！：NSFS-065
+2022-02-09 12:16:29 [root] WARNING: 详情信息准备压入！：NSFS-065
+2022-02-09 12:16:29 [root] WARNING: 详情信息已压入！：NSFS-065
+2022-02-09 12:16:29 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:29 [root] WARNING: 项目信息准备提交！：ZMAR-057
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:29 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'ZMAR-057' for key 'PRIMARY'
+2022-02-09 12:16:29 [root] WARNING: 更新成功！：ZMAR-057
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:29 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36'
+2022-02-09 12:16:29 [root] WARNING: 项目信息已提交！：ZMAR-057
+2022-02-09 12:16:29 [root] WARNING: 详情信息准备压入！：ZMAR-057
+2022-02-09 12:16:29 [root] WARNING: 详情信息已压入！：ZMAR-057
+2022-02-09 12:16:29 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:29 [root] WARNING: 项目信息准备提交！：TPIN-023
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:29 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'TPIN-023' for key 'PRIMARY'
+2022-02-09 12:16:29 [root] WARNING: 更新成功！：TPIN-023
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:29 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20130331 Firefox/21.0'
+2022-02-09 12:16:29 [root] WARNING: 项目信息已提交！：TPIN-023
+2022-02-09 12:16:29 [root] WARNING: 详情信息准备压入！：TPIN-023
+2022-02-09 12:16:29 [root] WARNING: 详情信息已压入！：TPIN-023
+2022-02-09 12:16:29 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:29 [root] WARNING: 项目信息准备提交！：SCOP-757
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:29 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'SCOP-757' for key 'PRIMARY'
+2022-02-09 12:16:29 [root] WARNING: 更新成功！：SCOP-757
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:29 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36'
+2022-02-09 12:16:29 [root] WARNING: 项目信息已提交！：SCOP-757
+2022-02-09 12:16:29 [root] WARNING: 详情信息准备压入！：SCOP-757
+2022-02-09 12:16:29 [root] WARNING: 详情信息已压入！：SCOP-757
+2022-02-09 12:16:29 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:29 [root] WARNING: 项目信息准备提交！：SABA-749
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:29 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'SABA-749' for key 'PRIMARY'
+2022-02-09 12:16:29 [root] WARNING: 更新成功！：SABA-749
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:29 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.517 Safari/537.36'
+2022-02-09 12:16:29 [root] WARNING: 项目信息已提交！：SABA-749
+2022-02-09 12:16:29 [root] WARNING: 详情信息准备压入！：SABA-749
+2022-02-09 12:16:29 [root] WARNING: 详情信息已压入！：SABA-749
+2022-02-09 12:16:29 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:29 [root] WARNING: 项目信息准备提交！：SABA-748
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:29 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'SABA-748' for key 'PRIMARY'
+2022-02-09 12:16:29 [root] WARNING: 更新成功！：SABA-748
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:29 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36'
+2022-02-09 12:16:29 [root] WARNING: 项目信息已提交！：SABA-748
+2022-02-09 12:16:29 [root] WARNING: 详情信息准备压入！：SABA-748
+2022-02-09 12:16:29 [root] WARNING: 详情信息已压入！：SABA-748
+2022-02-09 12:16:29 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:29 [root] WARNING: 项目信息准备提交！：MDBK-222
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:29 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'MDBK-222' for key 'PRIMARY'
+2022-02-09 12:16:29 [root] WARNING: 更新成功！：MDBK-222
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:29 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; rv:22.0) Gecko/20130405 Firefox/23.0'
+2022-02-09 12:16:29 [root] WARNING: 项目信息已提交！：MDBK-222
+2022-02-09 12:16:29 [root] WARNING: 详情信息准备压入！：MDBK-222
+2022-02-09 12:16:29 [root] WARNING: 详情信息已压入！：MDBK-222
+2022-02-09 12:16:29 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:29 [root] WARNING: 项目信息准备提交！：BAZX-327
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:29 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'BAZX-327' for key 'PRIMARY'
+2022-02-09 12:16:29 [root] WARNING: 更新成功！：BAZX-327
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:29 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1464.0 Safari/537.36'
+2022-02-09 12:16:29 [root] WARNING: 项目信息已提交！：BAZX-327
+2022-02-09 12:16:29 [root] WARNING: 详情信息准备压入！：BAZX-327
+2022-02-09 12:16:29 [root] WARNING: 详情信息已压入！：BAZX-327
+2022-02-09 12:16:29 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:29 [root] WARNING: 项目信息准备提交！：OFJE-349
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:29 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'OFJE-349' for key 'PRIMARY'
+2022-02-09 12:16:29 [root] WARNING: 更新成功！：OFJE-349
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:29 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1464.0 Safari/537.36'
+2022-02-09 12:16:29 [root] WARNING: 项目信息已提交！：OFJE-349
+2022-02-09 12:16:29 [root] WARNING: 详情信息准备压入！：OFJE-349
+2022-02-09 12:16:29 [root] WARNING: 详情信息已压入！：OFJE-349
+2022-02-09 12:16:29 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:29 [root] WARNING: 项目信息准备提交！：HUNTB-197
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:29 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'HUNTB-197' for key 'PRIMARY'
+2022-02-09 12:16:29 [root] WARNING: 更新成功！：HUNTB-197
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:29 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36'
+2022-02-09 12:16:29 [root] WARNING: 项目信息已提交！：HUNTB-197
+2022-02-09 12:16:29 [root] WARNING: 详情信息准备压入！：HUNTB-197
+2022-02-09 12:16:29 [root] WARNING: 详情信息已压入！：HUNTB-197
+2022-02-09 12:16:29 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:29 [root] WARNING: 项目信息准备提交！：HUNBL-080
+2022-02-09 12:16:29 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:30 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'HUNBL-080' for key 'PRIMARY'
+2022-02-09 12:16:30 [root] WARNING: 更新成功！：HUNBL-080
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:30 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727)'
+2022-02-09 12:16:30 [root] WARNING: 项目信息已提交！：HUNBL-080
+2022-02-09 12:16:30 [root] WARNING: 详情信息准备压入！：HUNBL-080
+2022-02-09 12:16:30 [root] WARNING: 详情信息已压入！：HUNBL-080
+2022-02-09 12:16:30 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:30 [root] WARNING: 项目信息准备提交！：NMK-063
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:30 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'NMK-063' for key 'PRIMARY'
+2022-02-09 12:16:30 [root] WARNING: 更新成功！：NMK-063
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:30 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/4.0; GTB7.4; InfoPath.3; SV1; .NET CLR 3.1.76908; WOW64; en-US)'
+2022-02-09 12:16:30 [root] WARNING: 项目信息已提交！：NMK-063
+2022-02-09 12:16:30 [root] WARNING: 详情信息准备压入！：NMK-063
+2022-02-09 12:16:30 [root] WARNING: 详情信息已压入！：NMK-063
+2022-02-09 12:16:30 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:30 [root] WARNING: 项目信息准备提交！：PGFS-003
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:30 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'PGFS-003' for key 'PRIMARY'
+2022-02-09 12:16:30 [root] WARNING: 更新成功！：PGFS-003
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:30 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.0'
+2022-02-09 12:16:30 [root] WARNING: 项目信息已提交！：PGFS-003
+2022-02-09 12:16:30 [root] WARNING: 详情信息准备压入！：PGFS-003
+2022-02-09 12:16:30 [root] WARNING: 详情信息已压入！：PGFS-003
+2022-02-09 12:16:30 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:30 [root] WARNING: 项目信息准备提交！：FSDSS-364
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:30 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'FSDSS-364' for key 'PRIMARY'
+2022-02-09 12:16:30 [root] WARNING: 更新成功！：FSDSS-364
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:30 [root] WARNING: 项目信息已提交！：FSDSS-364
+2022-02-09 12:16:30 [root] WARNING: 详情信息准备压入！：FSDSS-364
+2022-02-09 12:16:30 [root] WARNING: 详情信息已压入！：FSDSS-364
+2022-02-09 12:16:30 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:30 [root] WARNING: 项目信息准备提交！：CEMD-127
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:30 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'CEMD-127' for key 'PRIMARY'
+2022-02-09 12:16:30 [root] WARNING: 更新成功！：CEMD-127
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:30 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; ar) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4'
+2022-02-09 12:16:30 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36'
+2022-02-09 12:16:30 [root] WARNING: 项目信息已提交！：CEMD-127
+2022-02-09 12:16:30 [root] WARNING: 详情信息准备压入！：CEMD-127
+2022-02-09 12:16:30 [root] WARNING: 详情信息已压入！：CEMD-127
+2022-02-09 12:16:30 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:30 [root] WARNING: 项目信息准备提交！：CEMD-125
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:30 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'CEMD-125' for key 'PRIMARY'
+2022-02-09 12:16:30 [root] WARNING: 更新成功！：CEMD-125
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:30 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36'
+2022-02-09 12:16:30 [root] WARNING: 项目信息已提交！：CEMD-125
+2022-02-09 12:16:30 [root] WARNING: 详情信息准备压入！：CEMD-125
+2022-02-09 12:16:30 [root] WARNING: 详情信息已压入！：CEMD-125
+2022-02-09 12:16:30 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:30 [root] WARNING: 项目信息准备提交！：CEMD-124
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:30 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'CEMD-124' for key 'PRIMARY'
+2022-02-09 12:16:30 [root] WARNING: 更新成功！：CEMD-124
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:30 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36'
+2022-02-09 12:16:30 [root] WARNING: 项目信息已提交！：CEMD-124
+2022-02-09 12:16:30 [root] WARNING: 详情信息准备压入！：CEMD-124
+2022-02-09 12:16:30 [root] WARNING: 详情信息已压入！：CEMD-124
+2022-02-09 12:16:30 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:30 [root] WARNING: 项目信息准备提交！：CEMD-122
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:30 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'CEMD-122' for key 'PRIMARY'
+2022-02-09 12:16:30 [root] WARNING: 更新成功！：CEMD-122
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:30 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36'
+2022-02-09 12:16:30 [root] WARNING: 项目信息已提交！：CEMD-122
+2022-02-09 12:16:30 [root] WARNING: 详情信息准备压入！：CEMD-122
+2022-02-09 12:16:30 [root] WARNING: 详情信息已压入！：CEMD-122
+2022-02-09 12:16:30 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:30 [root] WARNING: 项目信息准备提交！：CEMD-121
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:30 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'CEMD-121' for key 'PRIMARY'
+2022-02-09 12:16:30 [root] WARNING: 更新成功！：CEMD-121
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:30 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36 Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.10'
+2022-02-09 12:16:30 [root] WARNING: 项目信息已提交！：CEMD-121
+2022-02-09 12:16:30 [root] WARNING: 详情信息准备压入！：CEMD-121
+2022-02-09 12:16:30 [root] WARNING: 详情信息已压入！：CEMD-121
+2022-02-09 12:16:30 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:30 [root] WARNING: 项目信息准备提交！：BABM-008
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:30 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'BABM-008' for key 'PRIMARY'
+2022-02-09 12:16:30 [root] WARNING: 更新成功！：BABM-008
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:30 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1464.0 Safari/537.36'
+2022-02-09 12:16:30 [root] WARNING: 项目信息已提交！：BABM-008
+2022-02-09 12:16:30 [root] WARNING: 详情信息准备压入！：BABM-008
+2022-02-09 12:16:30 [root] WARNING: 详情信息已压入！：BABM-008
+2022-02-09 12:16:30 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:30 [root] WARNING: 项目信息准备提交！：APNS-275
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:30 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'APNS-275' for key 'PRIMARY'
+2022-02-09 12:16:30 [root] WARNING: 更新成功！：APNS-275
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:30 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36'
+2022-02-09 12:16:30 [root] WARNING: 项目信息已提交！：APNS-275
+2022-02-09 12:16:30 [root] WARNING: 详情信息准备压入！：APNS-275
+2022-02-09 12:16:30 [root] WARNING: 详情信息已压入！：APNS-275
+2022-02-09 12:16:30 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:30 [root] WARNING: 项目信息准备提交！：APAK-216
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:30 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'APAK-216' for key 'PRIMARY'
+2022-02-09 12:16:30 [root] WARNING: 更新成功！：APAK-216
+2022-02-09 12:16:30 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:30 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.14 (KHTML, like Gecko) Chrome/24.0.1292.0 Safari/537.14'
+2022-02-09 12:16:30 [root] WARNING: 项目信息已提交！：APAK-216
+2022-02-09 12:16:30 [root] WARNING: 详情信息准备压入！：APAK-216
+2022-02-09 12:16:30 [root] WARNING: 详情信息已压入！：APAK-216
+2022-02-09 12:16:30 [root] WARNING: 索引页信息爬取完毕！：https://www.busfan.club
+2022-02-09 12:16:30 [root] WARNING: 下一个索引页地址准备压入：https://www.busfan.club/page/2
+2022-02-09 12:16:30 [root] WARNING: 下一个索引页地址已压入！：https://www.busfan.club/page/2
+2022-02-09 12:16:30 [root] WARNING: 爬虫结束！
+2022-02-09 12:16:30 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36'
+2022-02-09 12:16:30 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36'
+2022-02-09 12:16:31 [root] WARNING: 索引页开始爬取！：https://www.busfan.club/page/2
+2022-02-09 12:16:31 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:31 [root] WARNING: 项目信息准备提交！：NSFS-066
+2022-02-09 12:16:31 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:32 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'NSFS-066' for key 'PRIMARY'
+2022-02-09 12:16:32 [root] WARNING: 更新成功！：NSFS-066
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:32 [root] WARNING: 项目信息已提交！：NSFS-066
+2022-02-09 12:16:32 [root] WARNING: 详情信息准备压入！：NSFS-066
+2022-02-09 12:16:32 [root] WARNING: 详情信息已压入！：NSFS-066
+2022-02-09 12:16:32 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:32 [root] WARNING: 项目信息准备提交！：DNJR-068
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:32 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'DNJR-068' for key 'PRIMARY'
+2022-02-09 12:16:32 [root] WARNING: 更新成功！：DNJR-068
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:32 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36'
+2022-02-09 12:16:32 [root] WARNING: 项目信息已提交！：DNJR-068
+2022-02-09 12:16:32 [root] WARNING: 详情信息准备压入！：DNJR-068
+2022-02-09 12:16:32 [root] WARNING: 详情信息已压入！：DNJR-068
+2022-02-09 12:16:32 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:32 [root] WARNING: 项目信息准备提交！：NSFS-064
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:32 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'NSFS-064' for key 'PRIMARY'
+2022-02-09 12:16:32 [root] WARNING: 更新成功！：NSFS-064
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:32 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/18.0.1'
+2022-02-09 12:16:32 [root] WARNING: 项目信息已提交！：NSFS-064
+2022-02-09 12:16:32 [root] WARNING: 详情信息准备压入！：NSFS-064
+2022-02-09 12:16:32 [root] WARNING: 详情信息已压入！：NSFS-064
+2022-02-09 12:16:32 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:32 [root] WARNING: 项目信息准备提交！：NSFS-063
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:32 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'NSFS-063' for key 'PRIMARY'
+2022-02-09 12:16:32 [root] WARNING: 更新成功！：NSFS-063
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:32 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1500.55 Safari/537.36'
+2022-02-09 12:16:32 [root] WARNING: 项目信息已提交！：NSFS-063
+2022-02-09 12:16:32 [root] WARNING: 详情信息准备压入！：NSFS-063
+2022-02-09 12:16:32 [root] WARNING: 详情信息已压入！：NSFS-063
+2022-02-09 12:16:32 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:32 [root] WARNING: 项目信息准备提交！：MOPT-015
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:32 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'MOPT-015' for key 'PRIMARY'
+2022-02-09 12:16:32 [root] WARNING: 更新成功！：MOPT-015
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:32 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1468.0 Safari/537.36'
+2022-02-09 12:16:32 [root] WARNING: 项目信息已提交！：MOPT-015
+2022-02-09 12:16:32 [root] WARNING: 详情信息准备压入！：MOPT-015
+2022-02-09 12:16:32 [root] WARNING: 详情信息已压入！：MOPT-015
+2022-02-09 12:16:32 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:32 [root] WARNING: 项目信息准备提交！：DNJR-067
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:32 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'DNJR-067' for key 'PRIMARY'
+2022-02-09 12:16:32 [root] WARNING: 更新成功！：DNJR-067
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:32 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1309.0 Safari/537.17'
+2022-02-09 12:16:32 [root] WARNING: 项目信息已提交！：DNJR-067
+2022-02-09 12:16:32 [root] WARNING: 详情信息准备压入！：DNJR-067
+2022-02-09 12:16:32 [root] WARNING: 详情信息已压入！：DNJR-067
+2022-02-09 12:16:32 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:32 [root] WARNING: 项目信息准备提交！：NACX-095
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:32 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'NACX-095' for key 'PRIMARY'
+2022-02-09 12:16:32 [root] WARNING: 更新成功！：NACX-095
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:32 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36'
+2022-02-09 12:16:32 [root] WARNING: 项目信息已提交！：NACX-095
+2022-02-09 12:16:32 [root] WARNING: 详情信息准备压入！：NACX-095
+2022-02-09 12:16:32 [root] WARNING: 详情信息已压入！：NACX-095
+2022-02-09 12:16:32 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:32 [root] WARNING: 项目信息准备提交！：NACR-506
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:32 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'NACR-506' for key 'PRIMARY'
+2022-02-09 12:16:32 [root] WARNING: 更新成功！：NACR-506
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:32 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1464.0 Safari/537.36'
+2022-02-09 12:16:32 [root] WARNING: 项目信息已提交！：NACR-506
+2022-02-09 12:16:32 [root] WARNING: 详情信息准备压入！：NACR-506
+2022-02-09 12:16:32 [root] WARNING: 详情信息已压入！：NACR-506
+2022-02-09 12:16:32 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:32 [root] WARNING: 项目信息准备提交！：NACR-504
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:32 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'NACR-504' for key 'PRIMARY'
+2022-02-09 12:16:32 [root] WARNING: 更新成功！：NACR-504
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:32 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0'
+2022-02-09 12:16:32 [root] WARNING: 项目信息已提交！：NACR-504
+2022-02-09 12:16:32 [root] WARNING: 详情信息准备压入！：NACR-504
+2022-02-09 12:16:32 [root] WARNING: 详情信息已压入！：NACR-504
+2022-02-09 12:16:32 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:32 [root] WARNING: 项目信息准备提交！：HDKA-251
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:32 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'HDKA-251' for key 'PRIMARY'
+2022-02-09 12:16:32 [root] WARNING: 更新成功！：HDKA-251
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:32 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0'
+2022-02-09 12:16:32 [root] WARNING: 项目信息已提交！：HDKA-251
+2022-02-09 12:16:32 [root] WARNING: 详情信息准备压入！：HDKA-251
+2022-02-09 12:16:32 [root] WARNING: 详情信息已压入！：HDKA-251
+2022-02-09 12:16:32 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:32 [root] WARNING: 项目信息准备提交！：AMBI-150
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:32 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'AMBI-150' for key 'PRIMARY'
+2022-02-09 12:16:32 [root] WARNING: 更新成功！：AMBI-150
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:32 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1464.0 Safari/537.36'
+2022-02-09 12:16:32 [root] WARNING: 项目信息已提交！：AMBI-150
+2022-02-09 12:16:32 [root] WARNING: 详情信息准备压入！：AMBI-150
+2022-02-09 12:16:32 [root] WARNING: 详情信息已压入！：AMBI-150
+2022-02-09 12:16:32 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:32 [root] WARNING: 项目信息准备提交！：URKK-054
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:32 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'URKK-054' for key 'PRIMARY'
+2022-02-09 12:16:32 [root] WARNING: 更新成功！：URKK-054
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:32 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36'
+2022-02-09 12:16:32 [root] WARNING: 项目信息已提交！：URKK-054
+2022-02-09 12:16:32 [root] WARNING: 详情信息准备压入！：URKK-054
+2022-02-09 12:16:32 [root] WARNING: 详情信息已压入！：URKK-054
+2022-02-09 12:16:32 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:32 [root] WARNING: 项目信息准备提交！：URKK-053
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:32 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'URKK-053' for key 'PRIMARY'
+2022-02-09 12:16:32 [root] WARNING: 更新成功！：URKK-053
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:32 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1464.0 Safari/537.36'
+2022-02-09 12:16:32 [root] WARNING: 项目信息已提交！：URKK-053
+2022-02-09 12:16:32 [root] WARNING: 详情信息准备压入！：URKK-053
+2022-02-09 12:16:32 [root] WARNING: 详情信息已压入！：URKK-053
+2022-02-09 12:16:32 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:32 [root] WARNING: 项目信息准备提交！：MMUS-062
+2022-02-09 12:16:32 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:33 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'MMUS-062' for key 'PRIMARY'
+2022-02-09 12:16:33 [root] WARNING: 更新成功！：MMUS-062
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:33 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.517 Safari/537.36'
+2022-02-09 12:16:33 [root] WARNING: 项目信息已提交！：MMUS-062
+2022-02-09 12:16:33 [root] WARNING: 详情信息准备压入！：MMUS-062
+2022-02-09 12:16:33 [root] WARNING: 详情信息已压入！：MMUS-062
+2022-02-09 12:16:33 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:33 [root] WARNING: 项目信息准备提交！：DGCEMD-129
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:33 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'DGCEMD-129' for key 'PRIMARY'
+2022-02-09 12:16:33 [root] WARNING: 更新成功！：DGCEMD-129
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:33 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36'
+2022-02-09 12:16:33 [root] WARNING: 项目信息已提交！：DGCEMD-129
+2022-02-09 12:16:33 [root] WARNING: 详情信息准备压入！：DGCEMD-129
+2022-02-09 12:16:33 [root] WARNING: 详情信息已压入！：DGCEMD-129
+2022-02-09 12:16:33 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:33 [root] WARNING: 项目信息准备提交！：TPIN-024
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:33 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'TPIN-024' for key 'PRIMARY'
+2022-02-09 12:16:33 [root] WARNING: 更新成功！：TPIN-024
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:33 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36'
+2022-02-09 12:16:33 [root] WARNING: 项目信息已提交！：TPIN-024
+2022-02-09 12:16:33 [root] WARNING: 详情信息准备压入！：TPIN-024
+2022-02-09 12:16:33 [root] WARNING: 详情信息已压入！：TPIN-024
+2022-02-09 12:16:33 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:33 [root] WARNING: 项目信息准备提交！：DGCEMD-128
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:33 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'DGCEMD-128' for key 'PRIMARY'
+2022-02-09 12:16:33 [root] WARNING: 更新成功！：DGCEMD-128
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:33 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1309.0 Safari/537.17'
+2022-02-09 12:16:33 [root] WARNING: 项目信息已提交！：DGCEMD-128
+2022-02-09 12:16:33 [root] WARNING: 详情信息准备压入！：DGCEMD-128
+2022-02-09 12:16:33 [root] WARNING: 详情信息已压入！：DGCEMD-128
+2022-02-09 12:16:33 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:33 [root] WARNING: 项目信息准备提交！：DGCEMD-126
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:33 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'DGCEMD-126' for key 'PRIMARY'
+2022-02-09 12:16:33 [root] WARNING: 更新成功！：DGCEMD-126
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:33 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36'
+2022-02-09 12:16:33 [root] WARNING: 项目信息已提交！：DGCEMD-126
+2022-02-09 12:16:33 [root] WARNING: 详情信息准备压入！：DGCEMD-126
+2022-02-09 12:16:33 [root] WARNING: 详情信息已压入！：DGCEMD-126
+2022-02-09 12:16:33 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:33 [root] WARNING: 项目信息准备提交！：DGCEMD-123
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:33 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'DGCEMD-123' for key 'PRIMARY'
+2022-02-09 12:16:33 [root] WARNING: 更新成功！：DGCEMD-123
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:33 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1468.0 Safari/537.36'
+2022-02-09 12:16:33 [root] WARNING: 项目信息已提交！：DGCEMD-123
+2022-02-09 12:16:33 [root] WARNING: 详情信息准备压入！：DGCEMD-123
+2022-02-09 12:16:33 [root] WARNING: 详情信息已压入！：DGCEMD-123
+2022-02-09 12:16:33 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:33 [root] WARNING: 项目信息准备提交！：SCOP-756
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:33 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'SCOP-756' for key 'PRIMARY'
+2022-02-09 12:16:33 [root] WARNING: 更新成功！：SCOP-756
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:33 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36'
+2022-02-09 12:16:33 [root] WARNING: 项目信息已提交！：SCOP-756
+2022-02-09 12:16:33 [root] WARNING: 详情信息准备压入！：SCOP-756
+2022-02-09 12:16:33 [root] WARNING: 详情信息已压入！：SCOP-756
+2022-02-09 12:16:33 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:33 [root] WARNING: 项目信息准备提交！：MKMP-438
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:33 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'MKMP-438' for key 'PRIMARY'
+2022-02-09 12:16:33 [root] WARNING: 更新成功！：MKMP-438
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:33 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36'
+2022-02-09 12:16:33 [root] WARNING: 项目信息已提交！：MKMP-438
+2022-02-09 12:16:33 [root] WARNING: 详情信息准备压入！：MKMP-438
+2022-02-09 12:16:33 [root] WARNING: 详情信息已压入！：MKMP-438
+2022-02-09 12:16:33 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:33 [root] WARNING: 项目信息准备提交！：MDTM-757
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:33 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'MDTM-757' for key 'PRIMARY'
+2022-02-09 12:16:33 [root] WARNING: 更新成功！：MDTM-757
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:33 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (X11; CrOS i686 4319.74.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36'
+2022-02-09 12:16:33 [root] WARNING: 项目信息已提交！：MDTM-757
+2022-02-09 12:16:33 [root] WARNING: 详情信息准备压入！：MDTM-757
+2022-02-09 12:16:33 [root] WARNING: 详情信息已压入！：MDTM-757
+2022-02-09 12:16:33 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:33 [root] WARNING: 项目信息准备提交！：MDTM-756
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:33 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'MDTM-756' for key 'PRIMARY'
+2022-02-09 12:16:33 [root] WARNING: 更新成功！：MDTM-756
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:33 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36'
+2022-02-09 12:16:33 [root] WARNING: 项目信息已提交！：MDTM-756
+2022-02-09 12:16:33 [root] WARNING: 详情信息准备压入！：MDTM-756
+2022-02-09 12:16:33 [root] WARNING: 详情信息已压入！：MDTM-756
+2022-02-09 12:16:33 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:33 [root] WARNING: 项目信息准备提交！：MDS-900
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:33 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'MDS-900' for key 'PRIMARY'
+2022-02-09 12:16:33 [root] WARNING: 更新成功！：MDS-900
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:33 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36'
+2022-02-09 12:16:33 [root] WARNING: 项目信息已提交！：MDS-900
+2022-02-09 12:16:33 [root] WARNING: 详情信息准备压入！：MDS-900
+2022-02-09 12:16:33 [root] WARNING: 详情信息已压入！：MDS-900
+2022-02-09 12:16:33 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:33 [root] WARNING: 项目信息准备提交！：CEAD-392
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:33 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'CEAD-392' for key 'PRIMARY'
+2022-02-09 12:16:33 [root] WARNING: 更新成功！：CEAD-392
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:33 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
+2022-02-09 12:16:33 [root] WARNING: 项目信息已提交！：CEAD-392
+2022-02-09 12:16:33 [root] WARNING: 详情信息准备压入！：CEAD-392
+2022-02-09 12:16:33 [root] WARNING: 详情信息已压入！：CEAD-392
+2022-02-09 12:16:33 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:33 [root] WARNING: 项目信息准备提交！：REAL-789
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:33 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'REAL-789' for key 'PRIMARY'
+2022-02-09 12:16:33 [root] WARNING: 更新成功！：REAL-789
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:33 [root] WARNING: 浏览器代理：b'Opera/9.80 (X11; Linux i686; U; es-ES) Presto/2.8.131 Version/11.11'
+2022-02-09 12:16:33 [root] WARNING: 项目信息已提交！：REAL-789
+2022-02-09 12:16:33 [root] WARNING: 详情信息准备压入！：REAL-789
+2022-02-09 12:16:33 [root] WARNING: 详情信息已压入！：REAL-789
+2022-02-09 12:16:33 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:33 [root] WARNING: 项目信息准备提交！：REAL-788
+2022-02-09 12:16:33 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:34 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'REAL-788' for key 'PRIMARY'
+2022-02-09 12:16:34 [root] WARNING: 更新成功！：REAL-788
+2022-02-09 12:16:34 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:34 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36 Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.10'
+2022-02-09 12:16:34 [root] WARNING: 项目信息已提交！：REAL-788
+2022-02-09 12:16:34 [root] WARNING: 详情信息准备压入！：REAL-788
+2022-02-09 12:16:34 [root] WARNING: 详情信息已压入！：REAL-788
+2022-02-09 12:16:34 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:34 [root] WARNING: 项目信息准备提交！：NASH-653
+2022-02-09 12:16:34 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:34 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'NASH-653' for key 'PRIMARY'
+2022-02-09 12:16:34 [root] WARNING: 更新成功！：NASH-653
+2022-02-09 12:16:34 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:34 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1309.0 Safari/537.17'
+2022-02-09 12:16:34 [root] WARNING: 项目信息已提交！：NASH-653
+2022-02-09 12:16:34 [root] WARNING: 详情信息准备压入！：NASH-653
+2022-02-09 12:16:34 [root] WARNING: 详情信息已压入！：NASH-653
+2022-02-09 12:16:34 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:34 [root] WARNING: 项目信息准备提交！：ILLE-005
+2022-02-09 12:16:34 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:34 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'ILLE-005' for key 'PRIMARY'
+2022-02-09 12:16:34 [root] WARNING: 更新成功！：ILLE-005
+2022-02-09 12:16:34 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:34 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36'
+2022-02-09 12:16:34 [root] WARNING: 项目信息已提交！：ILLE-005
+2022-02-09 12:16:34 [root] WARNING: 详情信息准备压入！：ILLE-005
+2022-02-09 12:16:34 [root] WARNING: 详情信息已压入！：ILLE-005
+2022-02-09 12:16:34 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:34 [root] WARNING: 项目信息准备提交！：ILLE-004
+2022-02-09 12:16:34 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:34 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'ILLE-004' for key 'PRIMARY'
+2022-02-09 12:16:34 [root] WARNING: 更新成功！：ILLE-004
+2022-02-09 12:16:34 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:34 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36'
+2022-02-09 12:16:34 [root] WARNING: 项目信息已提交！：ILLE-004
+2022-02-09 12:16:34 [root] WARNING: 详情信息准备压入！：ILLE-004
+2022-02-09 12:16:34 [root] WARNING: 详情信息已压入！：ILLE-004
+2022-02-09 12:16:34 [root] WARNING: 索引页信息爬取完毕！：https://www.busfan.club/page/2
+2022-02-09 12:16:34 [root] WARNING: 下一个索引页地址准备压入：https://www.busfan.club/page/3
+2022-02-09 12:16:34 [root] WARNING: 下一个索引页地址已压入！：https://www.busfan.club/page/3
+2022-02-09 12:16:34 [root] WARNING: 爬虫结束！
+2022-02-09 12:16:34 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.14 (KHTML, like Gecko) Chrome/24.0.1292.0 Safari/537.14'
+2022-02-09 12:16:34 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36 Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.10'
+2022-02-09 12:16:35 [root] WARNING: 索引页开始爬取！：https://www.busfan.club/page/3
+2022-02-09 12:16:35 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:35 [root] WARNING: 项目信息准备提交！：ILLE-003
+2022-02-09 12:16:35 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:35 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'ILLE-003' for key 'PRIMARY'
+2022-02-09 12:16:35 [root] WARNING: 更新成功！：ILLE-003
+2022-02-09 12:16:35 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:35 [root] WARNING: 项目信息已提交！：ILLE-003
+2022-02-09 12:16:35 [root] WARNING: 详情信息准备压入！：ILLE-003
+2022-02-09 12:16:35 [root] WARNING: 详情信息已压入！：ILLE-003
+2022-02-09 12:16:35 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:35 [root] WARNING: 项目信息准备提交！：EKDV-675
+2022-02-09 12:16:35 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:35 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'EKDV-675' for key 'PRIMARY'
+2022-02-09 12:16:35 [root] WARNING: 更新成功！：EKDV-675
+2022-02-09 12:16:35 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:35 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36'
+2022-02-09 12:16:35 [root] WARNING: 项目信息已提交！：EKDV-675
+2022-02-09 12:16:35 [root] WARNING: 详情信息准备压入！：EKDV-675
+2022-02-09 12:16:35 [root] WARNING: 详情信息已压入！：EKDV-675
+2022-02-09 12:16:35 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:35 [root] WARNING: 项目信息准备提交！：CHRV-150
+2022-02-09 12:16:35 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:36 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'CHRV-150' for key 'PRIMARY'
+2022-02-09 12:16:36 [root] WARNING: 更新成功！：CHRV-150
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:36 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows; U; Windows NT 6.1; cs-CZ) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27'
+2022-02-09 12:16:36 [root] WARNING: 项目信息已提交！：CHRV-150
+2022-02-09 12:16:36 [root] WARNING: 详情信息准备压入！：CHRV-150
+2022-02-09 12:16:36 [root] WARNING: 详情信息已压入！：CHRV-150
+2022-02-09 12:16:36 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:36 [root] WARNING: 项目信息准备提交！：DROP-070
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:36 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'DROP-070' for key 'PRIMARY'
+2022-02-09 12:16:36 [root] WARNING: 更新成功！：DROP-070
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:36 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1464.0 Safari/537.36'
+2022-02-09 12:16:36 [root] WARNING: 项目信息已提交！：DROP-070
+2022-02-09 12:16:36 [root] WARNING: 详情信息准备压入！：DROP-070
+2022-02-09 12:16:36 [root] WARNING: 详情信息已压入！：DROP-070
+2022-02-09 12:16:36 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:36 [root] WARNING: 项目信息准备提交！：DOKS-554
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:36 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'DOKS-554' for key 'PRIMARY'
+2022-02-09 12:16:36 [root] WARNING: 更新成功！：DOKS-554
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:36 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; rv:21.0) Gecko/20130326 Firefox/21.0'
+2022-02-09 12:16:36 [root] WARNING: 项目信息已提交！：DOKS-554
+2022-02-09 12:16:36 [root] WARNING: 详情信息准备压入！：DOKS-554
+2022-02-09 12:16:36 [root] WARNING: 详情信息已压入！：DOKS-554
+2022-02-09 12:16:36 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:36 [root] WARNING: 项目信息准备提交！：DOKS-553
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:36 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'DOKS-553' for key 'PRIMARY'
+2022-02-09 12:16:36 [root] WARNING: 更新成功！：DOKS-553
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:36 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0'
+2022-02-09 12:16:36 [root] WARNING: 项目信息已提交！：DOKS-553
+2022-02-09 12:16:36 [root] WARNING: 详情信息准备压入！：DOKS-553
+2022-02-09 12:16:36 [root] WARNING: 详情信息已压入！：DOKS-553
+2022-02-09 12:16:36 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:36 [root] WARNING: 项目信息准备提交！：BKD-277
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:36 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'BKD-277' for key 'PRIMARY'
+2022-02-09 12:16:36 [root] WARNING: 更新成功！：BKD-277
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:36 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36'
+2022-02-09 12:16:36 [root] WARNING: 项目信息已提交！：BKD-277
+2022-02-09 12:16:36 [root] WARNING: 详情信息准备压入！：BKD-277
+2022-02-09 12:16:36 [root] WARNING: 详情信息已压入！：BKD-277
+2022-02-09 12:16:36 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:36 [root] WARNING: 项目信息准备提交！：RMER-011
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:36 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'RMER-011' for key 'PRIMARY'
+2022-02-09 12:16:36 [root] WARNING: 更新成功！：RMER-011
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:36 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Safari/537.36'
+2022-02-09 12:16:36 [root] WARNING: 项目信息已提交！：RMER-011
+2022-02-09 12:16:36 [root] WARNING: 详情信息准备压入！：RMER-011
+2022-02-09 12:16:36 [root] WARNING: 详情信息已压入！：RMER-011
+2022-02-09 12:16:36 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:36 [root] WARNING: 项目信息准备提交！：NKD-286
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:36 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'NKD-286' for key 'PRIMARY'
+2022-02-09 12:16:36 [root] WARNING: 更新成功！：NKD-286
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:36 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.14 (KHTML, like Gecko) Chrome/24.0.1292.0 Safari/537.14'
+2022-02-09 12:16:36 [root] WARNING: 项目信息已提交！：NKD-286
+2022-02-09 12:16:36 [root] WARNING: 详情信息准备压入！：NKD-286
+2022-02-09 12:16:36 [root] WARNING: 详情信息已压入！：NKD-286
+2022-02-09 12:16:36 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:36 [root] WARNING: 项目信息准备提交！：SORA-362
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:36 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'SORA-362' for key 'PRIMARY'
+2022-02-09 12:16:36 [root] WARNING: 更新成功！：SORA-362
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:36 [root] WARNING: 浏览器代理：b'Opera/9.80 (Windows NT 6.0; U; en) Presto/2.8.99 Version/11.10'
+2022-02-09 12:16:36 [root] WARNING: 项目信息已提交！：SORA-362
+2022-02-09 12:16:36 [root] WARNING: 详情信息准备压入！：SORA-362
+2022-02-09 12:16:36 [root] WARNING: 详情信息已压入！：SORA-362
+2022-02-09 12:16:36 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:36 [root] WARNING: 项目信息准备提交！：SORA-361
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:36 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'SORA-361' for key 'PRIMARY'
+2022-02-09 12:16:36 [root] WARNING: 更新成功！：SORA-361
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:36 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Microsoft Windows NT 6.2.9200.0); rv:22.0) Gecko/20130405 Firefox/22.0'
+2022-02-09 12:16:36 [root] WARNING: 项目信息已提交！：SORA-361
+2022-02-09 12:16:36 [root] WARNING: 详情信息准备压入！：SORA-361
+2022-02-09 12:16:36 [root] WARNING: 详情信息已压入！：SORA-361
+2022-02-09 12:16:36 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:36 [root] WARNING: 项目信息准备提交！：SORA-360
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:36 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'SORA-360' for key 'PRIMARY'
+2022-02-09 12:16:36 [root] WARNING: 更新成功！：SORA-360
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:36 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1500.55 Safari/537.36'
+2022-02-09 12:16:36 [root] WARNING: 项目信息已提交！：SORA-360
+2022-02-09 12:16:36 [root] WARNING: 详情信息准备压入！：SORA-360
+2022-02-09 12:16:36 [root] WARNING: 详情信息已压入！：SORA-360
+2022-02-09 12:16:36 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:36 [root] WARNING: 项目信息准备提交！：SLAP-106
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:36 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'SLAP-106' for key 'PRIMARY'
+2022-02-09 12:16:36 [root] WARNING: 更新成功！：SLAP-106
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:36 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36'
+2022-02-09 12:16:36 [root] WARNING: 项目信息已提交！：SLAP-106
+2022-02-09 12:16:36 [root] WARNING: 详情信息准备压入！：SLAP-106
+2022-02-09 12:16:36 [root] WARNING: 详情信息已压入！：SLAP-106
+2022-02-09 12:16:36 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:36 [root] WARNING: 项目信息准备提交！：FCDC-142
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:36 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'FCDC-142' for key 'PRIMARY'
+2022-02-09 12:16:36 [root] WARNING: 更新成功！：FCDC-142
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:36 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36'
+2022-02-09 12:16:36 [root] WARNING: 项目信息已提交！：FCDC-142
+2022-02-09 12:16:36 [root] WARNING: 详情信息准备压入！：FCDC-142
+2022-02-09 12:16:36 [root] WARNING: 详情信息已压入！：FCDC-142
+2022-02-09 12:16:36 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:36 [root] WARNING: 项目信息准备提交！：DPJT-143
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:36 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'DPJT-143' for key 'PRIMARY'
+2022-02-09 12:16:36 [root] WARNING: 更新成功！：DPJT-143
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:36 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36'
+2022-02-09 12:16:36 [root] WARNING: 项目信息已提交！：DPJT-143
+2022-02-09 12:16:36 [root] WARNING: 详情信息准备压入！：DPJT-143
+2022-02-09 12:16:36 [root] WARNING: 详情信息已压入！：DPJT-143
+2022-02-09 12:16:36 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:36 [root] WARNING: 项目信息准备提交！：SINN-021
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:36 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'SINN-021' for key 'PRIMARY'
+2022-02-09 12:16:36 [root] WARNING: 更新成功！：SINN-021
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:36 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1468.0 Safari/537.36'
+2022-02-09 12:16:36 [root] WARNING: 项目信息已提交！：SINN-021
+2022-02-09 12:16:36 [root] WARNING: 详情信息准备压入！：SINN-021
+2022-02-09 12:16:36 [root] WARNING: 详情信息已压入！：SINN-021
+2022-02-09 12:16:36 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:36 [root] WARNING: 项目信息准备提交！：DSD-844
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:36 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'DSD-844' for key 'PRIMARY'
+2022-02-09 12:16:36 [root] WARNING: 更新成功！：DSD-844
+2022-02-09 12:16:36 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:37 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36'
+2022-02-09 12:16:37 [root] WARNING: 项目信息已提交！：DSD-844
+2022-02-09 12:16:37 [root] WARNING: 详情信息准备压入！：DSD-844
+2022-02-09 12:16:37 [root] WARNING: 详情信息已压入！：DSD-844
+2022-02-09 12:16:37 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:37 [root] WARNING: 项目信息准备提交！：SCD-204
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:37 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'SCD-204' for key 'PRIMARY'
+2022-02-09 12:16:37 [root] WARNING: 更新成功！：SCD-204
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:37 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20130401 Firefox/21.0'
+2022-02-09 12:16:37 [root] WARNING: 项目信息已提交！：SCD-204
+2022-02-09 12:16:37 [root] WARNING: 详情信息准备压入！：SCD-204
+2022-02-09 12:16:37 [root] WARNING: 详情信息已压入！：SCD-204
+2022-02-09 12:16:37 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:37 [root] WARNING: 项目信息准备提交！：RPIN-059
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:37 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'RPIN-059' for key 'PRIMARY'
+2022-02-09 12:16:37 [root] WARNING: 更新成功！：RPIN-059
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:37 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows; U; Windows NT 6.1; sv-SE) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4'
+2022-02-09 12:16:37 [root] WARNING: 项目信息已提交！：RPIN-059
+2022-02-09 12:16:37 [root] WARNING: 详情信息准备压入！：RPIN-059
+2022-02-09 12:16:37 [root] WARNING: 详情信息已压入！：RPIN-059
+2022-02-09 12:16:37 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:37 [root] WARNING: 项目信息准备提交！：PKPT-007
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:37 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'PKPT-007' for key 'PRIMARY'
+2022-02-09 12:16:37 [root] WARNING: 更新成功！：PKPT-007
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:37 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36'
+2022-02-09 12:16:37 [root] WARNING: 项目信息已提交！：PKPT-007
+2022-02-09 12:16:37 [root] WARNING: 详情信息准备压入！：PKPT-007
+2022-02-09 12:16:37 [root] WARNING: 详情信息已压入！：PKPT-007
+2022-02-09 12:16:37 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:37 [root] WARNING: 项目信息准备提交！：PKPR-007
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:37 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'PKPR-007' for key 'PRIMARY'
+2022-02-09 12:16:37 [root] WARNING: 更新成功！：PKPR-007
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:37 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1500.55 Safari/537.36'
+2022-02-09 12:16:37 [root] WARNING: 项目信息已提交！：PKPR-007
+2022-02-09 12:16:37 [root] WARNING: 详情信息准备压入！：PKPR-007
+2022-02-09 12:16:37 [root] WARNING: 详情信息已压入！：PKPR-007
+2022-02-09 12:16:37 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:37 [root] WARNING: 项目信息准备提交！：PKPL-014
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:37 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'PKPL-014' for key 'PRIMARY'
+2022-02-09 12:16:37 [root] WARNING: 更新成功！：PKPL-014
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:37 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Safari/537.36'
+2022-02-09 12:16:37 [root] WARNING: 项目信息已提交！：PKPL-014
+2022-02-09 12:16:37 [root] WARNING: 详情信息准备压入！：PKPL-014
+2022-02-09 12:16:37 [root] WARNING: 详情信息已压入！：PKPL-014
+2022-02-09 12:16:37 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:37 [root] WARNING: 项目信息准备提交！：PKPD-182
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:37 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'PKPD-182' for key 'PRIMARY'
+2022-02-09 12:16:37 [root] WARNING: 更新成功！：PKPD-182
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:37 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
+2022-02-09 12:16:37 [root] WARNING: 项目信息已提交！：PKPD-182
+2022-02-09 12:16:37 [root] WARNING: 详情信息准备压入！：PKPD-182
+2022-02-09 12:16:37 [root] WARNING: 详情信息已压入！：PKPD-182
+2022-02-09 12:16:37 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:37 [root] WARNING: 项目信息准备提交！：PKPD-181
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:37 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'PKPD-181' for key 'PRIMARY'
+2022-02-09 12:16:37 [root] WARNING: 更新成功！：PKPD-181
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:37 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.16 Safari/537.36'
+2022-02-09 12:16:37 [root] WARNING: 项目信息已提交！：PKPD-181
+2022-02-09 12:16:37 [root] WARNING: 详情信息准备压入！：PKPD-181
+2022-02-09 12:16:37 [root] WARNING: 详情信息已压入！：PKPD-181
+2022-02-09 12:16:37 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:37 [root] WARNING: 项目信息准备提交！：OVG-191
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:37 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'OVG-191' for key 'PRIMARY'
+2022-02-09 12:16:37 [root] WARNING: 更新成功！：OVG-191
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:37 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36'
+2022-02-09 12:16:37 [root] WARNING: 项目信息已提交！：OVG-191
+2022-02-09 12:16:37 [root] WARNING: 详情信息准备压入！：OVG-191
+2022-02-09 12:16:37 [root] WARNING: 详情信息已压入！：OVG-191
+2022-02-09 12:16:37 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:37 [root] WARNING: 项目信息准备提交！：MTES-067
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:37 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'MTES-067' for key 'PRIMARY'
+2022-02-09 12:16:37 [root] WARNING: 更新成功！：MTES-067
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:37 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2117.157 Safari/537.36'
+2022-02-09 12:16:37 [root] WARNING: 项目信息已提交！：MTES-067
+2022-02-09 12:16:37 [root] WARNING: 详情信息准备压入！：MTES-067
+2022-02-09 12:16:37 [root] WARNING: 详情信息已压入！：MTES-067
+2022-02-09 12:16:37 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:37 [root] WARNING: 项目信息准备提交！：IBW-855
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:37 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'IBW-855' for key 'PRIMARY'
+2022-02-09 12:16:37 [root] WARNING: 更新成功！：IBW-855
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:37 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1500.55 Safari/537.36'
+2022-02-09 12:16:37 [root] WARNING: 项目信息已提交！：IBW-855
+2022-02-09 12:16:37 [root] WARNING: 详情信息准备压入！：IBW-855
+2022-02-09 12:16:37 [root] WARNING: 详情信息已压入！：IBW-855
+2022-02-09 12:16:37 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:37 [root] WARNING: 项目信息准备提交！：YST-264
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:37 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'YST-264' for key 'PRIMARY'
+2022-02-09 12:16:37 [root] WARNING: 更新成功！：YST-264
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:37 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36'
+2022-02-09 12:16:37 [root] WARNING: 项目信息已提交！：YST-264
+2022-02-09 12:16:37 [root] WARNING: 详情信息准备压入！：YST-264
+2022-02-09 12:16:37 [root] WARNING: 详情信息已压入！：YST-264
+2022-02-09 12:16:37 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:37 [root] WARNING: 项目信息准备提交！：YST-263
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:37 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'YST-263' for key 'PRIMARY'
+2022-02-09 12:16:37 [root] WARNING: 更新成功！：YST-263
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:37 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20130330 Firefox/21.0'
+2022-02-09 12:16:37 [root] WARNING: 项目信息已提交！：YST-263
+2022-02-09 12:16:37 [root] WARNING: 详情信息准备压入！：YST-263
+2022-02-09 12:16:37 [root] WARNING: 详情信息已压入！：YST-263
+2022-02-09 12:16:37 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:37 [root] WARNING: 项目信息准备提交！：TOEN-062
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:37 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'TOEN-062' for key 'PRIMARY'
+2022-02-09 12:16:37 [root] WARNING: 更新成功！：TOEN-062
+2022-02-09 12:16:37 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:37 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; Media Center PC 6.0; InfoPath.3; MS-RTC LM 8; Zune 4.7'
+2022-02-09 12:16:37 [root] WARNING: 项目信息已提交！：TOEN-062
+2022-02-09 12:16:37 [root] WARNING: 详情信息准备压入！：TOEN-062
+2022-02-09 12:16:37 [root] WARNING: 详情信息已压入！：TOEN-062
+2022-02-09 12:16:37 [root] WARNING: 索引页信息爬取完毕！：https://www.busfan.club/page/3
+2022-02-09 12:16:37 [root] WARNING: 下一个索引页地址准备压入：https://www.busfan.club/page/4
+2022-02-09 12:16:37 [root] WARNING: 下一个索引页地址已压入！：https://www.busfan.club/page/4
+2022-02-09 12:16:37 [root] WARNING: 爬虫结束！
+2022-02-09 12:16:37 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.14 (KHTML, like Gecko) Chrome/24.0.1292.0 Safari/537.14'
+2022-02-09 12:16:37 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36'
+2022-02-09 12:16:38 [root] WARNING: 索引页开始爬取！：https://www.busfan.club/page/4
+2022-02-09 12:16:38 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:38 [root] WARNING: 项目信息准备提交！：NUKA-051
+2022-02-09 12:16:38 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:38 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'NUKA-051' for key 'PRIMARY'
+2022-02-09 12:16:38 [root] WARNING: 更新成功！：NUKA-051
+2022-02-09 12:16:38 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:39 [root] WARNING: 项目信息已提交！：NUKA-051
+2022-02-09 12:16:39 [root] WARNING: 详情信息准备压入！：NUKA-051
+2022-02-09 12:16:39 [root] WARNING: 详情信息已压入！：NUKA-051
+2022-02-09 12:16:39 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:39 [root] WARNING: 项目信息准备提交！：SCPX-442
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:39 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'SCPX-442' for key 'PRIMARY'
+2022-02-09 12:16:39 [root] WARNING: 更新成功！：SCPX-442
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:39 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36'
+2022-02-09 12:16:39 [root] WARNING: 项目信息已提交！：SCPX-442
+2022-02-09 12:16:39 [root] WARNING: 详情信息准备压入！：SCPX-442
+2022-02-09 12:16:39 [root] WARNING: 详情信息已压入！：SCPX-442
+2022-02-09 12:16:39 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:39 [root] WARNING: 项目信息准备提交！：SABA-746
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:39 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'SABA-746' for key 'PRIMARY'
+2022-02-09 12:16:39 [root] WARNING: 更新成功！：SABA-746
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:39 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.62 Safari/537.36'
+2022-02-09 12:16:39 [root] WARNING: 项目信息已提交！：SABA-746
+2022-02-09 12:16:39 [root] WARNING: 详情信息准备压入！：SABA-746
+2022-02-09 12:16:39 [root] WARNING: 详情信息已压入！：SABA-746
+2022-02-09 12:16:39 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:39 [root] WARNING: 项目信息准备提交！：XRL-033
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:39 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'XRL-033' for key 'PRIMARY'
+2022-02-09 12:16:39 [root] WARNING: 更新成功！：XRL-033
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:39 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.14 (KHTML, like Gecko) Chrome/24.0.1292.0 Safari/537.14'
+2022-02-09 12:16:39 [root] WARNING: 项目信息已提交！：XRL-033
+2022-02-09 12:16:39 [root] WARNING: 详情信息准备压入！：XRL-033
+2022-02-09 12:16:39 [root] WARNING: 详情信息已压入！：XRL-033
+2022-02-09 12:16:39 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:39 [root] WARNING: 项目信息准备提交！：SGM-053
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:39 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'SGM-053' for key 'PRIMARY'
+2022-02-09 12:16:39 [root] WARNING: 更新成功！：SGM-053
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:39 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36'
+2022-02-09 12:16:39 [root] WARNING: 项目信息已提交！：SGM-053
+2022-02-09 12:16:39 [root] WARNING: 详情信息准备压入！：SGM-053
+2022-02-09 12:16:39 [root] WARNING: 详情信息已压入！：SGM-053
+2022-02-09 12:16:39 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:39 [root] WARNING: 项目信息准备提交！：NEWM-018
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:39 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'NEWM-018' for key 'PRIMARY'
+2022-02-09 12:16:39 [root] WARNING: 更新成功！：NEWM-018
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:39 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36'
+2022-02-09 12:16:39 [root] WARNING: 项目信息已提交！：NEWM-018
+2022-02-09 12:16:39 [root] WARNING: 详情信息准备压入！：NEWM-018
+2022-02-09 12:16:39 [root] WARNING: 详情信息已压入！：NEWM-018
+2022-02-09 12:16:39 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:39 [root] WARNING: 项目信息准备提交！：QRDA-139
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:39 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'QRDA-139' for key 'PRIMARY'
+2022-02-09 12:16:39 [root] WARNING: 更新成功！：QRDA-139
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:39 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36'
+2022-02-09 12:16:39 [root] WARNING: 项目信息已提交！：QRDA-139
+2022-02-09 12:16:39 [root] WARNING: 详情信息准备压入！：QRDA-139
+2022-02-09 12:16:39 [root] WARNING: 详情信息已压入！：QRDA-139
+2022-02-09 12:16:39 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:39 [root] WARNING: 项目信息准备提交！：NSFS-061
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:39 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'NSFS-061' for key 'PRIMARY'
+2022-02-09 12:16:39 [root] WARNING: 更新成功！：NSFS-061
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:39 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36'
+2022-02-09 12:16:39 [root] WARNING: 项目信息已提交！：NSFS-061
+2022-02-09 12:16:39 [root] WARNING: 详情信息准备压入！：NSFS-061
+2022-02-09 12:16:39 [root] WARNING: 详情信息已压入！：NSFS-061
+2022-02-09 12:16:39 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:39 [root] WARNING: 项目信息准备提交！：KBMS-125
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:39 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'KBMS-125' for key 'PRIMARY'
+2022-02-09 12:16:39 [root] WARNING: 更新成功！：KBMS-125
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:39 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36'
+2022-02-09 12:16:39 [root] WARNING: 项目信息已提交！：KBMS-125
+2022-02-09 12:16:39 [root] WARNING: 详情信息准备压入！：KBMS-125
+2022-02-09 12:16:39 [root] WARNING: 详情信息已压入！：KBMS-125
+2022-02-09 12:16:39 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:39 [root] WARNING: 项目信息准备提交！：SRMC-040
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:39 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'SRMC-040' for key 'PRIMARY'
+2022-02-09 12:16:39 [root] WARNING: 更新成功！：SRMC-040
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:39 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/4E423F'
+2022-02-09 12:16:39 [root] WARNING: 项目信息已提交！：SRMC-040
+2022-02-09 12:16:39 [root] WARNING: 详情信息准备压入！：SRMC-040
+2022-02-09 12:16:39 [root] WARNING: 详情信息已压入！：SRMC-040
+2022-02-09 12:16:39 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:39 [root] WARNING: 项目信息准备提交！：REXD-398
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:39 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'REXD-398' for key 'PRIMARY'
+2022-02-09 12:16:39 [root] WARNING: 更新成功！：REXD-398
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:39 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36'
+2022-02-09 12:16:39 [root] WARNING: 项目信息已提交！：REXD-398
+2022-02-09 12:16:39 [root] WARNING: 详情信息准备压入！：REXD-398
+2022-02-09 12:16:39 [root] WARNING: 详情信息已压入！：REXD-398
+2022-02-09 12:16:39 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:39 [root] WARNING: 项目信息准备提交！：ENKI-045
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:39 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'ENKI-045' for key 'PRIMARY'
+2022-02-09 12:16:39 [root] WARNING: 更新成功！：ENKI-045
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:39 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36'
+2022-02-09 12:16:39 [root] WARNING: 项目信息已提交！：ENKI-045
+2022-02-09 12:16:39 [root] WARNING: 详情信息准备压入！：ENKI-045
+2022-02-09 12:16:39 [root] WARNING: 详情信息已压入！：ENKI-045
+2022-02-09 12:16:39 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:39 [root] WARNING: 项目信息准备提交！：FTUJ-019
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:39 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'FTUJ-019' for key 'PRIMARY'
+2022-02-09 12:16:39 [root] WARNING: 更新成功！：FTUJ-019
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:39 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1500.55 Safari/537.36'
+2022-02-09 12:16:39 [root] WARNING: 项目信息已提交！：FTUJ-019
+2022-02-09 12:16:39 [root] WARNING: 详情信息准备压入！：FTUJ-019
+2022-02-09 12:16:39 [root] WARNING: 详情信息已压入！：FTUJ-019
+2022-02-09 12:16:39 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:39 [root] WARNING: 项目信息准备提交！：FSDSS-363
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:39 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'FSDSS-363' for key 'PRIMARY'
+2022-02-09 12:16:39 [root] WARNING: 更新成功！：FSDSS-363
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:39 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36'
+2022-02-09 12:16:39 [root] WARNING: 项目信息已提交！：FSDSS-363
+2022-02-09 12:16:39 [root] WARNING: 详情信息准备压入！：FSDSS-363
+2022-02-09 12:16:39 [root] WARNING: 详情信息已压入！：FSDSS-363
+2022-02-09 12:16:39 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:39 [root] WARNING: 项目信息准备提交！：APNS-274
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:39 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'APNS-274' for key 'PRIMARY'
+2022-02-09 12:16:39 [root] WARNING: 更新成功！：APNS-274
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:39 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.15 (KHTML, like Gecko) Chrome/24.0.1295.0 Safari/537.15'
+2022-02-09 12:16:39 [root] WARNING: 项目信息已提交！：APNS-274
+2022-02-09 12:16:39 [root] WARNING: 详情信息准备压入！：APNS-274
+2022-02-09 12:16:39 [root] WARNING: 详情信息已压入！：APNS-274
+2022-02-09 12:16:39 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:39 [root] WARNING: 项目信息准备提交！：APAK-215
+2022-02-09 12:16:39 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:40 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'APAK-215' for key 'PRIMARY'
+2022-02-09 12:16:40 [root] WARNING: 更新成功！：APAK-215
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:40 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1; rv:21.0) Gecko/20130401 Firefox/21.0'
+2022-02-09 12:16:40 [root] WARNING: 项目信息已提交！：APAK-215
+2022-02-09 12:16:40 [root] WARNING: 详情信息准备压入！：APAK-215
+2022-02-09 12:16:40 [root] WARNING: 详情信息已压入！：APAK-215
+2022-02-09 12:16:40 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:40 [root] WARNING: 项目信息准备提交！：NACR-503
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:40 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'NACR-503' for key 'PRIMARY'
+2022-02-09 12:16:40 [root] WARNING: 更新成功！：NACR-503
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:40 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36'
+2022-02-09 12:16:40 [root] WARNING: 项目信息已提交！：NACR-503
+2022-02-09 12:16:40 [root] WARNING: 详情信息准备压入！：NACR-503
+2022-02-09 12:16:40 [root] WARNING: 详情信息已压入！：NACR-503
+2022-02-09 12:16:40 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:40 [root] WARNING: 项目信息准备提交！：NACR-502
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:40 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'NACR-502' for key 'PRIMARY'
+2022-02-09 12:16:40 [root] WARNING: 更新成功！：NACR-502
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:40 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36'
+2022-02-09 12:16:40 [root] WARNING: 项目信息已提交！：NACR-502
+2022-02-09 12:16:40 [root] WARNING: 详情信息准备压入！：NACR-502
+2022-02-09 12:16:40 [root] WARNING: 详情信息已压入！：NACR-502
+2022-02-09 12:16:40 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:40 [root] WARNING: 项目信息准备提交！：MKMP-437
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:40 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'MKMP-437' for key 'PRIMARY'
+2022-02-09 12:16:40 [root] WARNING: 更新成功！：MKMP-437
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:40 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1866.237 Safari/537.36'
+2022-02-09 12:16:40 [root] WARNING: 项目信息已提交！：MKMP-437
+2022-02-09 12:16:40 [root] WARNING: 详情信息准备压入！：MKMP-437
+2022-02-09 12:16:40 [root] WARNING: 详情信息已压入！：MKMP-437
+2022-02-09 12:16:40 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:40 [root] WARNING: 项目信息准备提交！：MDBK-223
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:40 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'MDBK-223' for key 'PRIMARY'
+2022-02-09 12:16:40 [root] WARNING: 更新成功！：MDBK-223
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:40 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36'
+2022-02-09 12:16:40 [root] WARNING: 项目信息已提交！：MDBK-223
+2022-02-09 12:16:40 [root] WARNING: 详情信息准备压入！：MDBK-223
+2022-02-09 12:16:40 [root] WARNING: 详情信息已压入！：MDBK-223
+2022-02-09 12:16:40 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:40 [root] WARNING: 项目信息准备提交！：DVAJ-558
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:40 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'DVAJ-558' for key 'PRIMARY'
+2022-02-09 12:16:40 [root] WARNING: 更新成功！：DVAJ-558
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:40 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36'
+2022-02-09 12:16:40 [root] WARNING: 项目信息已提交！：DVAJ-558
+2022-02-09 12:16:40 [root] WARNING: 详情信息准备压入！：DVAJ-558
+2022-02-09 12:16:40 [root] WARNING: 详情信息已压入！：DVAJ-558
+2022-02-09 12:16:40 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:40 [root] WARNING: 项目信息准备提交！：DVAJ-557
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:40 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'DVAJ-557' for key 'PRIMARY'
+2022-02-09 12:16:40 [root] WARNING: 更新成功！：DVAJ-557
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:40 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36'
+2022-02-09 12:16:40 [root] WARNING: 项目信息已提交！：DVAJ-557
+2022-02-09 12:16:40 [root] WARNING: 详情信息准备压入！：DVAJ-557
+2022-02-09 12:16:40 [root] WARNING: 详情信息已压入！：DVAJ-557
+2022-02-09 12:16:40 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:40 [root] WARNING: 项目信息准备提交！：HZGD-211
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:40 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'HZGD-211' for key 'PRIMARY'
+2022-02-09 12:16:40 [root] WARNING: 更新成功！：HZGD-211
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:40 [root] WARNING: 浏览器代理：b'Opera/9.80 (Windows NT 5.1; U;) Presto/2.7.62 Version/11.01'
+2022-02-09 12:16:40 [root] WARNING: 项目信息已提交！：HZGD-211
+2022-02-09 12:16:40 [root] WARNING: 详情信息准备压入！：HZGD-211
+2022-02-09 12:16:40 [root] WARNING: 详情信息已压入！：HZGD-211
+2022-02-09 12:16:40 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:40 [root] WARNING: 项目信息准备提交！：VEMA-175
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:40 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'VEMA-175' for key 'PRIMARY'
+2022-02-09 12:16:40 [root] WARNING: 更新成功！：VEMA-175
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:40 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36'
+2022-02-09 12:16:40 [root] WARNING: 项目信息已提交！：VEMA-175
+2022-02-09 12:16:40 [root] WARNING: 详情信息准备压入！：VEMA-175
+2022-02-09 12:16:40 [root] WARNING: 详情信息已压入！：VEMA-175
+2022-02-09 12:16:40 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:40 [root] WARNING: 项目信息准备提交！：TYSF-003
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:40 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'TYSF-003' for key 'PRIMARY'
+2022-02-09 12:16:40 [root] WARNING: 更新成功！：TYSF-003
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:40 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.517 Safari/537.36'
+2022-02-09 12:16:40 [root] WARNING: 项目信息已提交！：TYSF-003
+2022-02-09 12:16:40 [root] WARNING: 详情信息准备压入！：TYSF-003
+2022-02-09 12:16:40 [root] WARNING: 详情信息已压入！：TYSF-003
+2022-02-09 12:16:40 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:40 [root] WARNING: 项目信息准备提交！：TYSF-002
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:40 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'TYSF-002' for key 'PRIMARY'
+2022-02-09 12:16:40 [root] WARNING: 更新成功！：TYSF-002
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:40 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36'
+2022-02-09 12:16:40 [root] WARNING: 项目信息已提交！：TYSF-002
+2022-02-09 12:16:40 [root] WARNING: 详情信息准备压入！：TYSF-002
+2022-02-09 12:16:40 [root] WARNING: 详情信息已压入！：TYSF-002
+2022-02-09 12:16:40 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:40 [root] WARNING: 项目信息准备提交！：TYSF-001
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:40 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'TYSF-001' for key 'PRIMARY'
+2022-02-09 12:16:40 [root] WARNING: 更新成功！：TYSF-001
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:40 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1464.0 Safari/537.36'
+2022-02-09 12:16:40 [root] WARNING: 项目信息已提交！：TYSF-001
+2022-02-09 12:16:40 [root] WARNING: 详情信息准备压入！：TYSF-001
+2022-02-09 12:16:40 [root] WARNING: 详情信息已压入！：TYSF-001
+2022-02-09 12:16:40 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:40 [root] WARNING: 项目信息准备提交！：HUNTB-207
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:40 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'HUNTB-207' for key 'PRIMARY'
+2022-02-09 12:16:40 [root] WARNING: 更新成功！：HUNTB-207
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:40 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.14 (KHTML, like Gecko) Chrome/24.0.1292.0 Safari/537.14'
+2022-02-09 12:16:40 [root] WARNING: 项目信息已提交！：HUNTB-207
+2022-02-09 12:16:40 [root] WARNING: 详情信息准备压入！：HUNTB-207
+2022-02-09 12:16:40 [root] WARNING: 详情信息已压入！：HUNTB-207
+2022-02-09 12:16:40 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:40 [root] WARNING: 项目信息准备提交！：HUNTB-206
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:40 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'HUNTB-206' for key 'PRIMARY'
+2022-02-09 12:16:40 [root] WARNING: 更新成功！：HUNTB-206
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:40 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.16 Safari/537.36'
+2022-02-09 12:16:40 [root] WARNING: 项目信息已提交！：HUNTB-206
+2022-02-09 12:16:40 [root] WARNING: 详情信息准备压入！：HUNTB-206
+2022-02-09 12:16:40 [root] WARNING: 详情信息已压入！：HUNTB-206
+2022-02-09 12:16:40 [root] WARNING: 项目信息开始爬取！
+2022-02-09 12:16:40 [root] WARNING: 项目信息准备提交！：HUNTB-203
+2022-02-09 12:16:40 [root] WARNING: 管道项目处理开始：
+2022-02-09 12:16:41 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'HUNTB-203' for key 'PRIMARY'
+2022-02-09 12:16:41 [root] WARNING: 更新成功！：HUNTB-203
+2022-02-09 12:16:41 [root] WARNING: 管道项目处理结束。
+2022-02-09 12:16:41 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36'
+2022-02-09 12:16:41 [root] WARNING: 项目信息已提交！：HUNTB-203
+2022-02-09 12:16:41 [root] WARNING: 详情信息准备压入！：HUNTB-203
+2022-02-09 12:16:41 [root] WARNING: 详情信息已压入！：HUNTB-203
+2022-02-09 12:16:41 [root] WARNING: 索引页信息爬取完毕！：https://www.busfan.club/page/4
+2022-02-09 12:16:41 [root] WARNING: 下一个索引页地址准备压入：https://www.busfan.club/page/5
+2022-02-09 12:16:41 [root] WARNING: 下一个索引页地址已压入！：https://www.busfan.club/page/5
+2022-02-09 12:16:41 [root] WARNING: 爬虫结束！
+2022-02-09 12:16:41 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36'
+2022-02-09 12:16:41 [root] WARNING: 浏览器代理：b'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.62 Safari/537.36'
