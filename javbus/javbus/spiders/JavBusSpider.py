@@ -33,15 +33,6 @@ class JavBusSpider(Spider):
             logging.warning("起始页已压入！：" + str(start_url))
         logging.warning("起始页爬取完毕！")
 
-    def get_detail_requests(self):
-        pass
-
-    def get_actress_requests(self):
-        pass
-
-    def parse(self, response, **kwargs):
-        pass
-
     def video_page_parse(self, response, **kwargs):
         logging.warning("索引页开始爬取！：" + str(response.url))
         # //*[@id="waterfall"]/div

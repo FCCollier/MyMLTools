@@ -143,3 +143,7 @@ class PagePipeline:
             return "Linux"
         else:
             return "Others"
+
+
+class VideoPipeline:
+    pass
