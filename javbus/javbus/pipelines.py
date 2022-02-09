@@ -3,6 +3,7 @@ from .settings import *
 from .items import VideoPageItem
 from .items import LatestUrlItem
 import logging
+import platform
 
 
 class PagePipeline:
@@ -13,7 +14,10 @@ class PagePipeline:
 
     def open_spider(self, spider):
         db_name = MYSQL_DB_NAME
-        host = MYSQL_HOST
+        if self.get_system_version() == "Windows":
+            host = MYSQL_HOST
+        else:
+            host = "127.0.0.1"
         user = MYSQL_USER
         pwd = MYSQL_PASSWORD
         self.db_conn = mysql.connector.connect(
@@ -104,3 +108,12 @@ class PagePipeline:
         self.db_cursor.close()
         self.db_conn.close()
         logging.warning("数据库游标关闭，数据库连接关闭！")
+
+    def get_system_version(self):
+        mysystem = platform.platform()
+        if mysystem.find("Windows") == 0:
+            return "Windows"
+        elif mysystem.find("Linux") == 0:
+            return "Linux"
+        else:
+            return "Others"
