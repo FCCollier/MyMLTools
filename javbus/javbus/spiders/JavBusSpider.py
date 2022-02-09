@@ -57,16 +57,15 @@ class JavBusSpider(Spider):
             pageitem.add_xpath("video_url", "@href")
             pageitem.add_xpath("pub_date", "div[@class='photo-info']/span/date[2]/text()")
             pageitem.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-            logging.warning("详情信息准备压入！：" + pageitem.load_item()["video_id"])
-            yield Request(url=pageitem.load_item()["video_url"], callback=self.video_parse, errback=self.parse_err)
-            logging.warning("详情信息已压入！：" + pageitem.load_item()["video_id"])
             logging.warning("项目信息准备提交！：" + pageitem.load_item()["video_id"])
             yield pageitem.load_item()
             logging.warning("项目信息已提交！：" + pageitem.load_item()["video_id"])
-
             logging.warning("项目信息爬取完毕！")
         logging.warning("索引页爬取完毕！：" + str(response.url))
 
+        logging.warning("详情信息准备压入！：")
+        yield Request(url="", callback=self.video_parse, errback=self.parse_err)
+        logging.warning("详情信息已压入！：")
 
         # //*[@id="next"]
         if response.xpath("//*[@id='next']/@href").extract_first() is not None:

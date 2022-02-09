@@ -18,7 +18,7 @@ class JavBusUserAgentMiddleware(UserAgentMiddleware):
     def process_request(self, request, spider):
         ua = UserAgent()
         request.headers['User-Agent'] = ua.random
-        logging.warning(msg="浏览器代理：" + str(request.headers['User-Agent']))
+        logging.info(msg="浏览器代理：" + str(request.headers['User-Agent']))
 
 
 class JavbusSpiderMiddleware:
