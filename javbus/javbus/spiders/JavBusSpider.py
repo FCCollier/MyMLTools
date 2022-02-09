@@ -77,7 +77,7 @@ class JavBusSpider(Spider):
         else:
             logging.warning("索引页不存在或者到底！:" + str(response.url))
 
-            logging.warning("最新地址列表开始爬取！")
+            logging.warning("最新地址列表页开始爬取！")
             # /html/body/div[4]/div/div[2]/div/div
             url_selectors = response.xpath("/html/body/div[4]/div/div[2]/div/div")
             for url_selector in url_selectors:
@@ -90,18 +90,22 @@ class JavBusSpider(Spider):
                 yield latest_url_item.load_item()
                 logging.warning("最新地址列表项目已提交！:" + latest_url_item.load_item()["url"])
                 logging.warning("最新地址列表项目爬取完毕！")
-            logging.warning("最新地址列表爬取完毕！")
+            logging.warning("最新地址列表页爬取完毕！")
 
     def video_parse(self, response, **kwargs):
         # //tr[contains(@class,'result')]
-        logging.warning("详情信息开始爬取！：" + str(response.url))
+        logging.warning("详情信息页开始爬取！：" + str(response.url))
         list_selector = response.xpath("//a[@class='movie-box']")
         for one_selector in list_selector:
-            logging.warning("详情信息开始爬取！")
+            logging.warning("详情信息项目开始爬取！")
             videoitem = ItemLoader(item=VideoItem(), selector=one_selector)
+            videoitem.add_xpath("video_id", "")
             videoitem.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-            logging.warning("详情信息爬取完毕！")
-        logging.warning("详情信息爬取完毕！：" + str(response.url))
+            logging.warning("详情信息项目准备提交！：" + videoitem.load_item()["video_id"])
+            yield videoitem.load_item()
+            logging.warning("详情信息项目已提交！：" + videoitem.load_item()["video_id"])
+            logging.warning("详情信息项目爬取完毕！")
+        logging.warning("详情信息页爬取完毕！：" + str(response.url))
 
     def parse_err(self, failure):
         print('*' * 30)
