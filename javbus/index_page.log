@@ -1,0 +1,82 @@
+2022-02-10 14:13:22 [root] WARNING: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2022-02-10 14:13:22 [root] WARNING: IndexPage爬虫开始！
+2022-02-10 14:13:24 [root] WARNING: CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+2022-02-10 14:13:24 [root] WARNING: 数据库连接创建完毕，数据库游标创建完毕！数据库地址：82.157.160.44
+2022-02-10 14:13:25 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-10 14:13:25 [root] WARNING: 索引页开始爬取！：https://www.busfan.club
+2022-02-10 14:13:25 [root] WARNING: 插入成功！：KTRA-376
+2022-02-10 14:13:25 [root] WARNING: 插入成功！：KTRA-373
+2022-02-10 14:13:25 [root] WARNING: 插入成功！：BACN-042
+2022-02-10 14:13:25 [root] WARNING: 插入成功！：SNTX-004
+2022-02-10 14:13:26 [root] WARNING: 插入成功！：AVSA-192
+2022-02-10 14:13:26 [root] WARNING: 插入成功！：NACR-505
+2022-02-10 14:13:26 [root] WARNING: 插入成功！：HDKA-250
+2022-02-10 14:13:26 [root] WARNING: 插入成功！：NASH-647
+2022-02-10 14:13:26 [root] WARNING: 插入成功！：NASH-645
+2022-02-10 14:13:26 [root] WARNING: 插入成功！：NASH-644
+2022-02-10 14:13:26 [root] WARNING: 插入成功！：NASH-643
+2022-02-10 14:13:26 [root] WARNING: 插入成功！：NASH-641
+2022-02-10 14:13:26 [root] WARNING: 插入成功！：NASH-640
+2022-02-10 14:13:26 [root] WARNING: 插入成功！：NASH-639
+2022-02-10 14:13:26 [root] WARNING: 插入成功！：NASH-638
+2022-02-10 14:13:26 [root] WARNING: 插入成功！：ICHK-004
+2022-02-10 14:13:26 [root] WARNING: 插入成功！：DKSB-144
+2022-02-10 14:13:26 [root] WARNING: 插入成功！：DSS-229
+2022-02-10 14:13:27 [root] WARNING: 插入成功！：SKMJ-252
+2022-02-10 14:13:27 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'ETQR-347' for key 'PRIMARY'
+2022-02-10 14:13:27 [root] WARNING: 更新成功！：ETQR-347
+2022-02-10 14:13:27 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'ETQR-349' for key 'PRIMARY'
+2022-02-10 14:13:27 [root] WARNING: 更新成功！：ETQR-349
+2022-02-10 14:13:27 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'TOTTE-038' for key 'PRIMARY'
+2022-02-10 14:13:27 [root] WARNING: 更新成功！：TOTTE-038
+2022-02-10 14:13:27 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'ETQR-348' for key 'PRIMARY'
+2022-02-10 14:13:27 [root] WARNING: 更新成功！：ETQR-348
+2022-02-10 14:13:27 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'TOTTE-037' for key 'PRIMARY'
+2022-02-10 14:13:27 [root] WARNING: 更新成功！：TOTTE-037
+2022-02-10 14:13:27 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'CEMD-126' for key 'PRIMARY'
+2022-02-10 14:13:27 [root] WARNING: 更新成功！：CEMD-126
+2022-02-10 14:13:27 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'SQIS-065' for key 'PRIMARY'
+2022-02-10 14:13:27 [root] WARNING: 更新成功！：SQIS-065
+2022-02-10 14:13:27 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'HOKS-112' for key 'PRIMARY'
+2022-02-10 14:13:27 [root] WARNING: 更新成功！：HOKS-112
+2022-02-10 14:13:27 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'NSFS-065' for key 'PRIMARY'
+2022-02-10 14:13:27 [root] WARNING: 更新成功！：NSFS-065
+2022-02-10 14:13:27 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'ZMAR-057' for key 'PRIMARY'
+2022-02-10 14:13:27 [root] WARNING: 更新成功！：ZMAR-057
+2022-02-10 14:13:28 [root] WARNING: 警告信息：1062 (23000): Duplicate entry 'TPIN-023' for key 'PRIMARY'
+2022-02-10 14:13:28 [root] WARNING: 更新成功！：TPIN-023
+2022-02-10 14:13:28 [root] WARNING: 索引页爬取完毕！：https://www.busfan.club
+2022-02-10 14:13:28 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-10 14:13:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.busfan.club> (referer: None)
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\spiders\index_page.py", line 50, in parse
+    next_url = response.meta["url"] + response.xpath("//*[@id='next']/@href").extract_first()
+KeyError: 'url'
+2022-02-10 14:13:28 [root] WARNING: 数据库游标关闭，数据库连接关闭！
+2022-02-10 14:13:28 [root] WARNING: CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+2022-02-10 14:13:28 [root] WARNING: IndexPage爬虫结束！
+2022-02-10 14:13:28 [root] WARNING: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA

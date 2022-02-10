@@ -1,6 +1,6 @@
 from scrapy import Request
 from scrapy.spiders import Spider
-from ..items import VideoPageItem
+from ..items import IndexPageItem
 from ..items import LatestUrlItem
 from ..items import VideoItem
 from scrapy.loader import ItemLoader
@@ -39,7 +39,7 @@ class JavBusSpider(Spider):
         list_selector = response.xpath("//a[@class='movie-box']")
         for one_selector in list_selector:
             logging.warning("项目信息开始爬取！")
-            pageitem = ItemLoader(item=VideoPageItem(), selector=one_selector)
+            pageitem = ItemLoader(item=IndexPageItem(), selector=one_selector)
             # //*[@id="waterfall"]/div[1]/a/div[2]/span/date[1]
             pageitem.add_xpath("video_id", "div[@class='photo-info']/span/date[1]/text()")
             # //*[@id="waterfall"]/div[1]/a/div[1]/img
