@@ -12,21 +12,17 @@ BOT_NAME = 'javbus'
 SPIDER_MODULES = ['javbus.spiders']
 NEWSPIDER_MODULE = 'javbus.spiders'
 
-# 起始地址设置
-START_URLS = [
-    # "https://www.busfan.club/page/140",
-    "https://www.busfan.club",
-]
-
 # 数据库设置
 MYSQL_DB_NAME = "javbus"
 MYSQL_HOST = "82.157.160.44"
-# MYSQL_HOST = "127.0.0.1"
 MYSQL_USER = "myscrapy"
 MYSQL_PASSWORD = "ReAwVFYtePgkSQcI"
 
 # 日志设置
-LOG_FILE = "./javbus.log"
+# LOG_FILE = "./javbus.log"
+LOG_ENABLED = True
+LOG_ENCODING = 'utf-8'
+LOG_STDOUT = False
 LOG_LEVEL = "WARNING"
 # CRITICAL - 严重错误(critical)
 # ERROR - 一般错误(regular errors)
@@ -34,9 +30,7 @@ LOG_LEVEL = "WARNING"
 # INFO - 一般信息(informational messages)
 # DEBUG - 调试信息(debugging messages)
 
-LOG_ENABLED = True
-LOG_ENCODING = 'utf-8'
-LOG_STDOUT = False
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'javbus (+http://www.yourdomain.com)'
@@ -52,9 +46,9 @@ ROBOTSTXT_OBEY = False
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
 
-## 下载延迟时间
+# 下载延迟时间
 # DOWNLOAD_DELAY = 1
-## 随机延迟 0.5 ~ 1.5 倍数
+# 随机延迟 0.5 ~ 1.5 倍数
 # RANDOMIZE_DOWNLOAD_DELAY = True
 
 # The download delay setting will honor only one of:

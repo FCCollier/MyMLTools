@@ -1,10 +1,78 @@
 import scrapy
+from scrapy.loader import ItemLoader
+from ..items import VideoItem
+import logging
+from ..settings import *
+import platform
+import pandas as pd
+from sqlalchemy import create_engine
+import time
 
 
 class VideoPageSpider(scrapy.Spider):
     name = 'video_page'
-    allowed_domains = ['javbus.com']
-    start_urls = ['http://javbus.com/']
+    custom_settings = {
+        "LOG_FILE": "./video_page.log",
+        "ITEM_PIPELINES": {
+            'javbus.pipelines.VideoPagePipeline': 300,
+        }
+    }
 
-    def parse(self, response):
-        pass
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        logging.warning("A" * 60)
+        logging.warning("VideoPage爬虫开始！")
+        db_name = MYSQL_DB_NAME
+        if MyConfig.get_system_version() == "Windows":
+            host = MYSQL_HOST
+        else:
+            host = "127.0.0.1"
+        user = MYSQL_USER
+        pwd = MYSQL_PASSWORD
+        self.engine= create_engine(
+            str(r"mysql+pymysql://%s:" + '%s' + "@%s/%s?charset=utf8") % (user, pwd, host, db_name)
+        )
+
+    def __del__(self):
+        logging.warning("VideoPage爬虫结束！")
+        logging.warning("A" * 60)
+
+    def start_requests(self):
+        sql_query = 'select * from video_url_spider;'
+        df_read = pd.read_sql_query(sql_query, self.engine)
+        for video_url in list(df_read["video_url"]):
+            yield scrapy.Request(url=video_url,callback=self.parse)
+        self.engine.dispose()
+
+    def parse(self, response, **kwargs):
+        logging.warning("详情信息页开始爬取！：" + str(response.url))
+        # /html/body/div[5]
+        list_selector = response.xpath("//div[@class='container']")
+        for one_selector in list_selector:
+            logging.warning("详情信息项目开始爬取！")
+            videoitem = ItemLoader(item=VideoItem(), selector=one_selector)
+            videoitem.add_xpath("video_id", "//span[contains(text(),'識別碼:')]/../span[2]/text()")
+            videoitem.add_xpath("video_title", "//a[@class='bigImage']/img/@title")
+            videoitem.add_xpath("premiered", "//span[contains(text(),'發行日期:')]/../text()")
+            videoitem.add_xpath("runtime", "//span[contains(text(),'長度:')]/../text()")
+            videoitem.add_xpath("director", "//span[contains(text(),'導演:')]/../a/text()")
+            videoitem.add_xpath("studio", "//span[contains(text(),'製作商:')]/../a/text()")
+            videoitem.add_xpath("label", "//span[contains(text(),'發行商:')]/../a/text()")
+            videoitem.add_xpath("series", "//span[contains(text(),'系列:')]/../a/text()")
+            videoitem.add_xpath("bigimg", "//a[@class='bigImage']/@href")
+            videoitem.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+            yield videoitem.load_item()
+            logging.warning("详情信息项目爬取完毕！")
+        logging.warning("详情信息页爬取完毕！：" + str(response.url))
+
+
+class MyConfig:
+    @classmethod
+    def get_system_version(self):
+        mysystem = platform.platform()
+        if mysystem.find("Windows") == 0:
+            return "Windows"
+        elif mysystem.find("Linux") == 0:
+            return "Linux"
+        else:
+            return "Others"

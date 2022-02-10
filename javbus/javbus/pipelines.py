@@ -152,7 +152,7 @@ class IndexPagePipeline:
 
     def open_spider(self, spider):
         db_name = MYSQL_DB_NAME
-        if self.get_system_version() == "Windows":
+        if MyConfig.get_system_version() == "Windows":
             host = MYSQL_HOST
         else:
             host = "127.0.0.1"
@@ -165,7 +165,7 @@ class IndexPagePipeline:
             database=db_name
         )
         self.db_cursor = self.db_conn.cursor()
-        logging.warning("C" * 30)
+        logging.warning("C" * 60)
         logging.warning("数据库连接创建完毕，数据库游标创建完毕！数据库地址：" + str(host))
 
     def process_item(self, item, spider):
@@ -198,7 +198,6 @@ class IndexPagePipeline:
             '''
             self.db_cursor.execute(sql, values)
             self.db_conn.commit()
-            logging.warning(msg="警告信息：" + str(e))
             logging.warning("更新成功！：" + item["video_id"])
         except BaseException as e:
             self.db_conn.rollback()
@@ -210,8 +209,42 @@ class IndexPagePipeline:
         self.db_cursor.close()
         self.db_conn.close()
         logging.warning("数据库游标关闭，数据库连接关闭！")
-        logging.warning("C" * 30)
+        logging.warning("C" * 60)
 
+
+class VideoPagePipeline:
+    def __init__(self):
+        self.db_cursor = None
+        self.db_conn = None
+
+    def open_spider(self, spider):
+        db_name = MYSQL_DB_NAME
+        if MyConfig.get_system_version() == "Windows":
+            host = MYSQL_HOST
+        else:
+            host = "127.0.0.1"
+        user = MYSQL_USER
+        pwd = MYSQL_PASSWORD
+        self.db_conn = mysql.connector.connect(
+            host=host,
+            user=user,
+            password=pwd,
+            database=db_name
+        )
+        self.db_cursor = self.db_conn.cursor()
+        logging.warning("C" * 60)
+        logging.warning("数据库连接创建完毕，数据库游标创建完毕！数据库地址：" + str(host))
+
+    def process_item(self, item, spider):
+        pass
+
+    def close_spider(self, spider):
+        self.db_cursor.close()
+        self.db_conn.close()
+        logging.warning("数据库游标关闭，数据库连接关闭！")
+
+
+class MyConfig:
     @classmethod
     def get_system_version(self):
         mysystem = platform.platform()
