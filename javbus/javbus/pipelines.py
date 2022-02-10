@@ -236,7 +236,30 @@ class VideoPagePipeline:
         logging.warning("数据库连接创建完毕，数据库游标创建完毕！数据库地址：" + str(host))
 
     def process_item(self, item, spider):
-        pass
+        try:
+            values = (
+                item["video_id"],
+                item["video_title"],
+                item["premiered"],
+                item["runtime"],
+                item["director"],
+                item["studio"],
+                item["label"],
+                item["series"],
+                item["bigimg"],
+                item["last_update"],
+            )
+            sql = '''
+            insert into video_info(video_id,video_title,premiered,runtime,director,studio,label,series,bigimg,last_update) 
+            values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+            '''
+            self.db_cursor.execute(sql, values)
+            self.db_conn.commit()
+        except mysql.connector.errors.IntegrityError as e:
+            logging.warning(msg="警告信息：" + str(e))
+            logging.warning("更新成功！：" + item["video_id"])
+        else:
+            logging.warning("插入成功！：" + item["video_id"])
 
     def close_spider(self, spider):
         self.db_cursor.close()

@@ -1,47 +1,20 @@
 from scrapy import Request
 from scrapy.spiders import Spider
-from ..items import IndexPageItem
 from ..items import LatestUrlItem
 from ..items import VideoItem
+from ..items import IndexPageItem
 from scrapy.loader import ItemLoader
 import time
 import logging
-from ..settings import *
 from scrapy.spidermiddlewares.httperror import HttpError
 from twisted.internet.error import DNSLookupError
 from twisted.internet.error import TimeoutError, TCPTimedOutError
-
-
-def parse_err(failure):
-    # log all failures
-    logging.error("JavBusSpider 错误！")
-    logging.error(repr(failure))
-
-    # in case you want to do something special for some errors,
-    # you may need the failure's type:
-
-    if failure.check(HttpError):
-        # these exceptions come from HttpError spider middleware
-        # you can get the non-200 response
-        response = failure.value.response
-        logging.error('错误类型： HttpError on %s', response.url)
-
-    elif failure.check(DNSLookupError):
-        # this is the original request
-        request = failure.request
-        logging.error('错误类型：DNSLookupError on %s', request.url)
-
-    elif failure.check(TimeoutError, TCPTimedOutError):
-        request = failure.request
-        logging.error('错误类型：TimeoutError on %s', request.url)
-
-    else:
-        logging.error('错误类型：其他错误。')
+import platform
 
 
 class JavBusSpider(Spider):
     name = "javbus"
-    start_urls = ['https://www.busfan.club']
+    start_urls = []
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -55,10 +28,13 @@ class JavBusSpider(Spider):
         logging.warning("起始页开始爬取！！")
         for start_url in self.start_urls:
             logging.warning("起始页准备压入！：" + str(start_url))
-            yield Request(url=start_url, callback=self.video_page_parse, errback=parse_err,
+            yield Request(url=start_url, callback=self.video_page_parse, errback=self.parse_err,
                           meta={"url": start_url})
             logging.warning("起始页已压入！：" + str(start_url))
         logging.warning("起始页爬取完毕！")
+
+    def parse(self, response, **kwargs):
+        pass
 
     def video_page_parse(self, response, **kwargs):
         logging.warning("索引页开始爬取！：" + str(response.url))
@@ -82,14 +58,14 @@ class JavBusSpider(Spider):
         logging.warning("索引页爬取完毕！：" + str(response.url))
 
         logging.warning("详情信息准备压入！：")
-        yield Request(url="", callback=self.video_parse, errback=parse_err)
+        yield Request(url="", callback=self.video_parse, errback=self.parse_err)
         logging.warning("详情信息已压入！：")
 
         # //*[@id="next"]
         if response.xpath("//*[@id='next']/@href").extract_first() is not None:
             next_url = response.meta["url"] + response.xpath("//*[@id='next']/@href").extract_first()
             logging.warning(msg=str("下一个索引页地址准备压入：" + next_url))
-            yield Request(url=next_url, callback=self.video_page_parse, errback=parse_err,
+            yield Request(url=next_url, callback=self.video_page_parse, errback=self.parse_err,
                           meta={"url": response.meta["url"]})
             logging.warning(msg=str("下一个索引页地址已压入！：" + next_url))
         else:
@@ -134,3 +110,68 @@ class JavBusSpider(Spider):
             logging.warning("详情信息项目爬取完毕！")
         logging.warning("详情信息页爬取完毕！：" + str(response.url))
 
+    def parse_err(self, failure):
+        # log all failures
+        logging.error("JavBusSpider 错误！")
+        logging.error(repr(failure))
+
+        # in case you want to do something special for some errors,
+        # you may need the failure's type:
+
+        if failure.check(HttpError):
+            # these exceptions come from HttpError spider middleware
+            # you can get the non-200 response
+            response = failure.value.response
+            logging.error('错误类型： HttpError on %s', response.url)
+
+        elif failure.check(DNSLookupError):
+            # this is the original request
+            request = failure.request
+            logging.error('错误类型：DNSLookupError on %s', request.url)
+
+        elif failure.check(TimeoutError, TCPTimedOutError):
+            request = failure.request
+            logging.error('错误类型：TimeoutError on %s', request.url)
+
+        else:
+            logging.error('错误类型：其他错误。')
+
+
+class JavBusConfig:
+
+    @classmethod
+    def parse_err(self, failure):
+        # log all failures
+        logging.error("JavBusSpider 错误！")
+        logging.error(repr(failure))
+
+        # in case you want to do something special for some errors,
+        # you may need the failure's type:
+
+        if failure.check(HttpError):
+            # these exceptions come from HttpError spider middleware
+            # you can get the non-200 response
+            response = failure.value.response
+            logging.error('错误类型： HttpError on %s', response.url)
+
+        elif failure.check(DNSLookupError):
+            # this is the original request
+            request = failure.request
+            logging.error('错误类型：DNSLookupError on %s', request.url)
+
+        elif failure.check(TimeoutError, TCPTimedOutError):
+            request = failure.request
+            logging.error('错误类型：TimeoutError on %s', request.url)
+
+        else:
+            logging.error('错误类型：其他错误。')
+
+    @classmethod
+    def get_system_version(self):
+        mysystem = platform.platform()
+        if mysystem.find("Windows") == 0:
+            return "Windows"
+        elif mysystem.find("Linux") == 0:
+            return "Linux"
+        else:
+            return "Others"
