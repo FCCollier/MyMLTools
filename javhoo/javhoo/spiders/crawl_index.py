@@ -3,10 +3,10 @@ from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 
 
-class JavhoospiderSpider(CrawlSpider):
-    name = 'JavHooSpider'
-    allowed_domains = ['https://www.javhoo.org']
-    start_urls = ['http://https://www.javhoo.org/']
+class CrawlIndexSpider(CrawlSpider):
+    name = 'crawl_index'
+    allowed_domains = ['www.javhoo.org']
+    start_urls = ['http://www.javhoo.org/']
 
     rules = (
         Rule(LinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
