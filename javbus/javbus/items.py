@@ -6,7 +6,7 @@ class ProcessItem:
     @classmethod
     def none_process(cls, item):
         if item is None:
-            return ""
+            return "null"
         else:
             return item
 

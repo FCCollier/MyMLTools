@@ -1,56 +1,12 @@
-2022-02-11 16:42:01 [root] WARNING: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-2022-02-11 16:42:01 [root] WARNING: VideoPage爬虫开始！
-2022-02-11 16:42:02 [root] WARNING: CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-2022-02-11 16:42:02 [root] WARNING: 数据库连接创建完毕，数据库游标创建完毕！数据库地址：82.157.160.44
-2022-02-11 16:42:04 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-2022-02-11 16:42:04 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-024
-2022-02-11 16:42:04 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8hsi_b.jpg',
- 'director': 'ハム王子',
+2022-02-11 17:00:27 [root] WARNING: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2022-02-11 17:00:27 [root] WARNING: VideoPage爬虫开始！
+2022-02-11 17:00:28 [root] WARNING: CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+2022-02-11 17:00:28 [root] WARNING: 数据库连接创建完毕，数据库游标创建完毕！数据库地址：82.157.160.44
+2022-02-11 17:00:30 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:30 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-027
+2022-02-11 17:00:30 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8i4z_b.jpg',
  'label': 'AROMA',
- 'last_update': '2022-02-11 16:42:04',
- 'premiered': ' 2021-10-14',
- 'runtime': '125',
- 'studio': 'アロマ企画',
- 'video_id': 'AARM-024',
- 'video_title': '手足を拘束され目隠しされてる男に遭遇したお姉さん、縛ったままでチ○ポや乳首を弄りまくる！'}
-Traceback (most recent call last):
-  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
-    current.result = callback(  # type: ignore[misc]
-  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
-    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
-  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
-    item["series"],
-  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
-    return self._values[key]
-KeyError: 'series'
-2022-02-11 16:42:04 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-024
-2022-02-11 16:42:04 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-2022-02-11 16:42:04 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-2022-02-11 16:42:04 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-031
-2022-02-11 16:42:04 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8iwp_b.jpg',
- 'director': '笠井貴人',
- 'label': 'AROMA',
- 'last_update': '2022-02-11 16:42:04',
- 'premiered': ' 2021-11-04',
- 'runtime': '125',
- 'studio': 'アロマ企画',
- 'video_id': 'AARM-031',
- 'video_title': 'フェロモン先生の囁き淫語レッスン'}
-Traceback (most recent call last):
-  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
-    current.result = callback(  # type: ignore[misc]
-  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
-    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
-  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
-    item["series"],
-  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
-    return self._values[key]
-KeyError: 'series'
-2022-02-11 16:42:04 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-2022-02-11 16:42:04 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-027
-2022-02-11 16:42:04 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8i4z_b.jpg',
- 'label': 'AROMA',
- 'last_update': '2022-02-11 16:42:04',
+ 'last_update': '2022-02-11 17:00:30',
  'premiered': ' 2021-10-21',
  'runtime': '242',
  'studio': 'アロマ企画',
@@ -66,62 +22,12 @@ Traceback (most recent call last):
   File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
     return self._values[key]
 KeyError: 'director'
-2022-02-11 16:42:04 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-031
-2022-02-11 16:42:04 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-2022-02-11 16:42:04 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-027
-2022-02-11 16:42:04 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-2022-02-11 16:42:04 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-2022-02-11 16:42:04 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-032
-2022-02-11 16:42:04 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8iwo_b.jpg',
+2022-02-11 17:00:30 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:30 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-034
+2022-02-11 17:00:30 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8jc3_b.jpg',
  'director': '角脇しげお',
  'label': 'AROMA',
- 'last_update': '2022-02-11 16:42:04',
- 'premiered': ' 2021-11-04',
- 'runtime': '119',
- 'studio': 'アロマ企画',
- 'video_id': 'AARM-032',
- 'video_title': 'バキューム乳首舐めされながらスローに亀頭弄られ続ける3P焦らされ性感'}
-Traceback (most recent call last):
-  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
-    current.result = callback(  # type: ignore[misc]
-  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
-    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
-  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
-    item["series"],
-  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
-    return self._values[key]
-KeyError: 'series'
-2022-02-11 16:42:04 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-2022-02-11 16:42:04 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-035
-2022-02-11 16:42:04 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8jc2_b.jpg',
- 'director': '笠井貴人',
- 'label': 'AROMA',
- 'last_update': '2022-02-11 16:42:04',
- 'premiered': ' 2021-11-11',
- 'runtime': '116',
- 'studio': 'アロマ企画',
- 'video_id': 'AARM-035',
- 'video_title': 'アナタの顔の上に跨りオナサポ挑発 真下から覗き観る濡れ染みパンティオナニー'}
-Traceback (most recent call last):
-  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
-    current.result = callback(  # type: ignore[misc]
-  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
-    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
-  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
-    item["series"],
-  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
-    return self._values[key]
-KeyError: 'series'
-2022-02-11 16:42:04 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-032
-2022-02-11 16:42:04 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-2022-02-11 16:42:04 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-035
-2022-02-11 16:42:04 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-2022-02-11 16:42:04 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-2022-02-11 16:42:04 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-034
-2022-02-11 16:42:04 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8jc3_b.jpg',
- 'director': '角脇しげお',
- 'label': 'AROMA',
- 'last_update': '2022-02-11 16:42:04',
+ 'last_update': '2022-02-11 17:00:30',
  'premiered': ' 2021-11-11',
  'runtime': '112',
  'studio': 'アロマ企画',
@@ -137,19 +43,21 @@ Traceback (most recent call last):
   File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
     return self._values[key]
 KeyError: 'series'
-2022-02-11 16:42:04 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-034
-2022-02-11 16:42:04 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-2022-02-11 16:42:05 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-2022-02-11 16:42:05 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-036
-2022-02-11 16:42:05 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8jpb_b.jpg',
- 'director': 'さとしまにあ',
+2022-02-11 17:00:30 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-027
+2022-02-11 17:00:30 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:30 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-034
+2022-02-11 17:00:30 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:30 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:30 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-028
+2022-02-11 17:00:30 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8ik7_b.jpg',
+ 'director': '角脇しげお',
  'label': 'AROMA',
- 'last_update': '2022-02-11 16:42:05',
- 'premiered': ' 2021-11-18',
- 'runtime': '125',
+ 'last_update': '2022-02-11 17:00:30',
+ 'premiered': ' 2021-10-28',
+ 'runtime': '110',
  'studio': 'アロマ企画',
- 'video_id': 'AARM-036',
- 'video_title': 'センズリ用 シコシコしながらじっくり見れるTバックパンチラと生アナル'}
+ 'video_id': 'AARM-028',
+ 'video_title': '人妻のふともも 気持ちよすぎる腿こき'}
 Traceback (most recent call last):
   File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
     current.result = callback(  # type: ignore[misc]
@@ -160,14 +68,59 @@ Traceback (most recent call last):
   File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
     return self._values[key]
 KeyError: 'series'
-2022-02-11 16:42:05 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-036
-2022-02-11 16:42:05 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-2022-02-11 16:42:05 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-2022-02-11 16:42:05 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-030
-2022-02-11 16:42:05 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8ik5_b.jpg',
+2022-02-11 17:00:30 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:30 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-031
+2022-02-11 17:00:30 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8iwp_b.jpg',
+ 'director': '笠井貴人',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:30',
+ 'premiered': ' 2021-11-04',
+ 'runtime': '125',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-031',
+ 'video_title': 'フェロモン先生の囁き淫語レッスン'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
+    item["series"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'series'
+2022-02-11 17:00:30 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-028
+2022-02-11 17:00:30 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:30 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-031
+2022-02-11 17:00:30 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:30 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:30 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-037
+2022-02-11 17:00:30 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8jpa_b.jpg',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:30',
+ 'premiered': ' 2021-11-18',
+ 'runtime': '235',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-037',
+ 'video_title': '着衣の女性におち○ぽヌキヌキしてもらうなら普段着よりコスプレ要素が高い服装がイイよね！'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 245, in process_item
+    item["director"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'director'
+2022-02-11 17:00:30 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-037
+2022-02-11 17:00:30 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:30 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:30 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-030
+2022-02-11 17:00:30 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8ik5_b.jpg',
  'director': 'ハム王子',
  'label': 'AROMA',
- 'last_update': '2022-02-11 16:42:05',
+ 'last_update': '2022-02-11 17:00:30',
  'premiered': ' 2021-10-28',
  'runtime': '112',
  'studio': 'アロマ企画',
@@ -183,5 +136,670 @@ Traceback (most recent call last):
   File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
     return self._values[key]
 KeyError: 'series'
-2022-02-11 16:42:05 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-030
-2022-02-11 16:42:05 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:30 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-030
+2022-02-11 17:00:30 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:30 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:30 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-036
+2022-02-11 17:00:30 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8jpb_b.jpg',
+ 'director': 'さとしまにあ',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:30',
+ 'premiered': ' 2021-11-18',
+ 'runtime': '125',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-036',
+ 'video_title': 'センズリ用 シコシコしながらじっくり見れるTバックパンチラと生アナル'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
+    item["series"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'series'
+2022-02-11 17:00:30 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-036
+2022-02-11 17:00:30 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:31 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:31 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-039
+2022-02-11 17:00:31 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8k2i_b.jpg',
+ 'director': 'ハム王子',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:31',
+ 'premiered': ' 2021-12-02',
+ 'runtime': '105',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-039',
+ 'video_title': 'すべすべで良い香りのするお姉さんの腋で僕のザーメン受け止めてくれますか？'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
+    item["series"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'series'
+2022-02-11 17:00:31 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-039
+2022-02-11 17:00:31 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:31 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:31 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-044
+2022-02-11 17:00:31 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8nym_b.jpg',
+ 'director': 'ハム王子',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:31',
+ 'premiered': ' 2021-12-16',
+ 'runtime': '114',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-044',
+ 'video_title': 'フルバックパンティをセルフ強●Tバックでぐいぐい食い込ませイク姿を見せつけるお姉さま'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
+    item["series"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'series'
+2022-02-11 17:00:31 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-044
+2022-02-11 17:00:31 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:31 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:31 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-035
+2022-02-11 17:00:31 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8jc2_b.jpg',
+ 'director': '笠井貴人',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:31',
+ 'premiered': ' 2021-11-11',
+ 'runtime': '116',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-035',
+ 'video_title': 'アナタの顔の上に跨りオナサポ挑発 真下から覗き観る濡れ染みパンティオナニー'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
+    item["series"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'series'
+2022-02-11 17:00:31 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-035
+2022-02-11 17:00:31 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:31 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:31 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-041
+2022-02-11 17:00:31 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8nib_b.jpg',
+ 'director': '角脇しげお',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:31',
+ 'premiered': ' 2021-12-09',
+ 'runtime': '106',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-041',
+ 'video_title': '目隠しベロチュー×乳首弄り×2回イクまで許してくれない手こき'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
+    item["series"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'series'
+2022-02-11 17:00:31 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-041
+2022-02-11 17:00:31 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:31 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:31 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-048
+2022-02-11 17:00:31 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8p0g_b.jpg',
+ 'director': 'さとしまにあ',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:31',
+ 'premiered': ' 2021-12-30',
+ 'runtime': '125',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-048',
+ 'video_title': 'センズリ応援団！オナニー指揮するエッチなオナサポチアリーダー'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
+    item["series"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'series'
+2022-02-11 17:00:31 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-048
+2022-02-11 17:00:31 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:31 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:31 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-049
+2022-02-11 17:00:31 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8pee_b.jpg',
+ 'director': '笠井貴人',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:31',
+ 'premiered': ' 2022-01-06',
+ 'runtime': '127',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-049',
+ 'video_title': 'バイノーラルでイク 耳元で囁かれながら受けるジラし淫語フェザータッチ性感愛撫'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
+    item["series"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'series'
+2022-02-11 17:00:31 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-049
+2022-02-11 17:00:31 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:31 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:31 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-050
+2022-02-11 17:00:31 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8ped_b.jpg',
+ 'director': '角脇しげお',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:31',
+ 'premiered': ' 2022-01-06',
+ 'runtime': '109',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-050',
+ 'video_title': 'べろんべろんの乳首舐めとプリプリの尻ずりで発射寸前まで勃起させられ続けむちむちの腿こきでザーメン仕留められる'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
+    item["series"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'series'
+2022-02-11 17:00:31 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-050
+2022-02-11 17:00:31 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:32 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:32 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-045
+2022-02-11 17:00:32 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8obf_b.jpg',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:32',
+ 'premiered': ' 2021-12-23',
+ 'runtime': '237',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-045',
+ 'video_title': '黒ストッキングの腿こき最強説'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 245, in process_item
+    item["director"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'director'
+2022-02-11 17:00:32 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-045
+2022-02-11 17:00:32 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:32 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:32 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-053
+2022-02-11 17:00:32 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8q9j_b.jpg',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:32',
+ 'premiered': ' 2022-01-20',
+ 'runtime': '240',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-053',
+ 'video_title': 'オナサポガール！ 貴方のオナニーはぜぇ～んぶ私にお任せください！！'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 245, in process_item
+    item["director"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'director'
+2022-02-11 17:00:32 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-053
+2022-02-11 17:00:32 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:32 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:32 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-052
+2022-02-11 17:00:32 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8q9k_b.jpg',
+ 'director': '角脇しげお',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:32',
+ 'premiered': ' 2022-01-20',
+ 'runtime': '127',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-052',
+ 'video_title': 'ノーパン痴首いじり'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
+    item["series"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'series'
+2022-02-11 17:00:32 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-052
+2022-02-11 17:00:32 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:32 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:32 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-032
+2022-02-11 17:00:32 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8iwo_b.jpg',
+ 'director': '角脇しげお',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:32',
+ 'premiered': ' 2021-11-04',
+ 'runtime': '119',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-032',
+ 'video_title': 'バキューム乳首舐めされながらスローに亀頭弄られ続ける3P焦らされ性感'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
+    item["series"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'series'
+2022-02-11 17:00:32 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-032
+2022-02-11 17:00:32 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:32 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:32 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-054
+2022-02-11 17:00:32 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8ql0_b.jpg',
+ 'director': '角脇しげお',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:32',
+ 'premiered': ' 2022-01-27',
+ 'runtime': '195',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-054',
+ 'video_title': 'あの元凄腕エステティシャンが離婚して本格的に現場復帰、クラウドファンディングで都内にエロ最高すぎる回春サロン開いたってよ。 '
+                '晴美'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
+    item["series"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'series'
+2022-02-11 17:00:32 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-054
+2022-02-11 17:00:32 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:32 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:32 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/ABW-152
+2022-02-11 17:00:32 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8j3x_b.jpg',
+ 'label': 'ABSOLUTELY WONDERFUL',
+ 'last_update': '2022-02-11 17:00:32',
+ 'premiered': ' 2021-10-15',
+ 'runtime': '190',
+ 'studio': 'プレステージ',
+ 'video_id': 'ABW-152',
+ 'video_title': '結城るみなの大学性活 妄想SEX三昧3本番!!'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 245, in process_item
+    item["director"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'director'
+2022-02-11 17:00:32 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/ABW-152
+2022-02-11 17:00:32 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:32 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:32 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/ABW-153
+2022-02-11 17:00:32 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8j3w_b.jpg',
+ 'label': 'ABSOLUTELY WONDERFUL',
+ 'last_update': '2022-02-11 17:00:32',
+ 'premiered': ' 2021-10-15',
+ 'runtime': '220',
+ 'series': ['「'],
+ 'studio': 'プレステージ',
+ 'video_id': 'ABW-153',
+ 'video_title': '「なまめかしい」オイルまみれ3本番'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 245, in process_item
+    item["director"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'director'
+2022-02-11 17:00:32 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/ABW-153
+2022-02-11 17:00:32 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:32 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:32 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-038
+2022-02-11 17:00:32 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8k2j_b.jpg',
+ 'director': '角脇しげお',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:32',
+ 'premiered': ' 2021-12-02',
+ 'runtime': '114',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-038',
+ 'video_title': '竿を雑巾絞りトルネードでヌルヌルしごき続けながら亀頭を咥えこんでジュルジュルしゃぶり続ける最強の搾精フェラチオ'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
+    item["series"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'series'
+2022-02-11 17:00:32 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-038
+2022-02-11 17:00:32 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/ABW-154
+2022-02-11 17:00:33 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8jhw_b.jpg',
+ 'label': 'ABSOLUTELY WONDERFUL',
+ 'last_update': '2022-02-11 17:00:33',
+ 'premiered': ' 2021-10-22',
+ 'runtime': '185',
+ 'series': ['顔'],
+ 'studio': 'プレステージ',
+ 'video_id': 'ABW-154',
+ 'video_title': '顔射の美学 17'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 245, in process_item
+    item["director"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'director'
+2022-02-11 17:00:33 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/ABW-154
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-056
+2022-02-11 17:00:33 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8qky_b.jpg',
+ 'director': 'ハム王子',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:33',
+ 'premiered': ' 2022-01-27',
+ 'runtime': '120',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-056',
+ 'video_title': '肌が触れるくらい近くでキミのズリネタになってあげるけどタッチはNGだよ！'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
+    item["series"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'series'
+2022-02-11 17:00:33 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-056
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/ABW-156
+2022-02-11 17:00:33 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8jvk_b.jpg',
+ 'label': 'ABSOLUTELY WONDERFUL',
+ 'last_update': '2022-02-11 17:00:33',
+ 'premiered': ' 2021-10-29',
+ 'runtime': '165',
+ 'series': ['全'],
+ 'studio': 'プレステージ',
+ 'video_id': 'ABW-156',
+ 'video_title': '全裸家政婦 新感覚ヴァーチャルセックス性活をあなたに Staff03'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 245, in process_item
+    item["director"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'director'
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/ABW-158
+2022-02-11 17:00:33 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8kb2_b.jpg',
+ 'label': 'ABSOLUTELY WONDERFUL',
+ 'last_update': '2022-02-11 17:00:33',
+ 'premiered': ' 2021-11-05',
+ 'runtime': '200',
+ 'series': ['全'],
+ 'studio': 'プレステージ',
+ 'video_id': 'ABW-158',
+ 'video_title': '全裸家政婦 新感覚ヴァーチャルセックス性活をあなたに Staff04'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 245, in process_item
+    item["director"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'director'
+2022-02-11 17:00:33 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/ABW-156
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/ABW-158
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-024
+2022-02-11 17:00:33 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8hsi_b.jpg',
+ 'director': 'ハム王子',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:33',
+ 'premiered': ' 2021-10-14',
+ 'runtime': '125',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-024',
+ 'video_title': '手足を拘束され目隠しされてる男に遭遇したお姉さん、縛ったままでチ○ポや乳首を弄りまくる！'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
+    item["series"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'series'
+2022-02-11 17:00:33 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-024
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/ABW-163
+2022-02-11 17:00:33 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8nm8_b.jpg',
+ 'label': 'ABSOLUTELY WONDERFUL',
+ 'last_update': '2022-02-11 17:00:33',
+ 'premiered': ' 2021-11-12',
+ 'runtime': '175',
+ 'series': ['か'],
+ 'studio': 'プレステージ',
+ 'video_id': 'ABW-163',
+ 'video_title': 'からかい上手の唯月さん。'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 245, in process_item
+    item["director"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'director'
+2022-02-11 17:00:33 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/ABW-163
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/ABW-162
+2022-02-11 17:00:33 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8nm7_b.jpg',
+ 'label': 'ABSOLUTELY WONDERFUL',
+ 'last_update': '2022-02-11 17:00:33',
+ 'premiered': ' 2021-11-12',
+ 'runtime': '150',
+ 'series': ['極'],
+ 'studio': 'プレステージ',
+ 'video_id': 'ABW-162',
+ 'video_title': '美ノ嶋めぐりの極上筆おろし 43'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 245, in process_item
+    item["director"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'director'
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/ABW-160
+2022-02-11 17:00:33 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8kb5_b.jpg',
+ 'label': 'ABSOLUTELY WONDERFUL',
+ 'last_update': '2022-02-11 17:00:33',
+ 'premiered': ' 2021-11-05',
+ 'runtime': '130',
+ 'series': ['天'],
+ 'studio': 'プレステージ',
+ 'video_id': 'ABW-160',
+ 'video_title': '天然成分由来 乃木絢愛汁 120％ 73'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 245, in process_item
+    item["director"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'director'
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/ABW-155
+2022-02-11 17:00:33 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8jhv_b.jpg',
+ 'label': 'ABSOLUTELY WONDERFUL',
+ 'last_update': '2022-02-11 17:00:33',
+ 'premiered': ' 2021-10-22',
+ 'runtime': '205',
+ 'series': ['1'],
+ 'studio': 'プレステージ',
+ 'video_id': 'ABW-155',
+ 'video_title': '120％肯定カノジョ VOL.02'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 245, in process_item
+    item["director"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'director'
+2022-02-11 17:00:33 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/ABW-162
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/ABW-160
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/ABW-155
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/ABW-161
+2022-02-11 17:00:33 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8kb4_b.jpg',
+ 'label': 'ABSOLUTELY WONDERFUL',
+ 'last_update': '2022-02-11 17:00:33',
+ 'premiered': ' 2021-11-05',
+ 'runtime': '220',
+ 'series': ['本'],
+ 'studio': 'プレステージ',
+ 'video_id': 'ABW-161',
+ 'video_title': '本番オーケー！？噂の裏ピンサロ 18'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 245, in process_item
+    item["director"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'director'
+2022-02-11 17:00:33 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/ABW-161
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:33 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/AARM-051
+2022-02-11 17:00:34 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8pvh_b.jpg',
+ 'director': 'ハム王子',
+ 'label': 'AROMA',
+ 'last_update': '2022-02-11 17:00:34',
+ 'premiered': ' 2022-01-13',
+ 'runtime': '95',
+ 'studio': 'アロマ企画',
+ 'video_id': 'AARM-051',
+ 'video_title': '至近距離でパンチラ拝みながらチ○ポしごかれてフル勃起！しかもパンティお触りOKで暴発必至！！'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 248, in process_item
+    item["series"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'series'
+2022-02-11 17:00:34 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/AARM-051
+2022-02-11 17:00:34 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:34 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:34 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/ABW-157
+2022-02-11 17:00:34 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8jvl_b.jpg',
+ 'label': 'ABSOLUTELY WONDERFUL',
+ 'last_update': '2022-02-11 17:00:34',
+ 'premiered': ' 2021-10-29',
+ 'runtime': '130',
+ 'series': ['ス'],
+ 'studio': 'プレステージ',
+ 'video_id': 'ABW-157',
+ 'video_title': 'スポコス汗だくSEX４本番！ 体育会系・小鳩麦 act.29'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 245, in process_item
+    item["director"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'director'
+2022-02-11 17:00:34 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/ABW-157
+2022-02-11 17:00:34 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:34 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2022-02-11 17:00:34 [root] WARNING: 详情信息页开始爬取！：https://www.busfan.club/ABW-159
+2022-02-11 17:00:34 [scrapy.core.scraper] ERROR: Error processing {'bigimg': '/pics/cover/8kb3_b.jpg',
+ 'label': 'ABSOLUTELY WONDERFUL',
+ 'last_update': '2022-02-11 17:00:34',
+ 'premiered': ' 2021-11-05',
+ 'runtime': '170',
+ 'series': ['超'],
+ 'studio': 'プレステージ',
+ 'video_id': 'ABW-159',
+ 'video_title': '超！透け透けスケベ学園 CLASS 13'}
+Traceback (most recent call last):
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\utils\defer.py", line 150, in f
+    return deferred_from_coro(coro_f(*coro_args, **coro_kwargs))
+  File "D:\HSU\mycode\MyScrapy\javbus\javbus\pipelines.py", line 245, in process_item
+    item["director"],
+  File "D:\HSU\mycode\myscrapy\venv\lib\site-packages\scrapy\item.py", line 94, in __getitem__
+    return self._values[key]
+KeyError: 'director'
+2022-02-11 17:00:34 [root] WARNING: 详情信息页爬取完毕！：https://www.busfan.club/ABW-159
+2022-02-11 17:00:34 [root] WARNING: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB

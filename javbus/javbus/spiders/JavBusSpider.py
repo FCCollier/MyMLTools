@@ -1,3 +1,4 @@
+import scrapy.loader
 from scrapy import Request
 from scrapy.spiders import Spider
 from ..items import LatestUrlItem
@@ -175,3 +176,12 @@ class JavBusConfig:
             return "Linux"
         else:
             return "Others"
+
+
+class MyItemLoader(scrapy.loader.ItemLoader):
+    def add_xpath(self, field_name, xpath, *processors, **kw):
+        values = self._get_xpathvalues(xpath, **kw)
+        if values:
+            self.add_value(field_name, values, *processors, **kw)
+        else:
+            self.add_value(field_name, 'null', *processors, **kw)
