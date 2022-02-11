@@ -1,5 +1,11 @@
 import scrapy
-from itemloaders.processors import TakeFirst
+from itemloaders.processors import TakeFirst, MapCompose
+
+
+class ProcessItem:
+    @classmethod
+    def none_process(cls, item):
+        pass
 
 
 class IndexPageItem(scrapy.Item):
@@ -13,16 +19,19 @@ class IndexPageItem(scrapy.Item):
 
 
 class VideoItem(scrapy.Item):
-    video_id = scrapy.Field(output_processor=TakeFirst())
-    video_title = scrapy.Field(output_processor=TakeFirst())
-    premiered = scrapy.Field(output_processor=TakeFirst())
-    runtime = scrapy.Field(output_processor=TakeFirst())
-    director = scrapy.Field(output_processor=TakeFirst())
-    studio = scrapy.Field(output_processor=TakeFirst())
-    label = scrapy.Field(output_processor=TakeFirst())
-    series = scrapy.Field(output_processor=TakeFirst())
-    bigimg = scrapy.Field(output_processor=TakeFirst())
-    last_update = scrapy.Field(output_processor=TakeFirst())
+    video_id = scrapy.Field()
+    video_title = scrapy.Field()
+    premiered = scrapy.Field()
+    runtime = scrapy.Field(
+        input_processor=MapCompose(str.strip, str.rstrip("分鐘")),
+        output_processor=TakeFirst()
+    )
+    director = scrapy.Field()
+    studio = scrapy.Field()
+    label = scrapy.Field()
+    series = scrapy.Field()
+    bigimg = scrapy.Field()
+    last_update = scrapy.Field()
 
 
 class ActressItem(scrapy.Item):
@@ -38,9 +47,3 @@ class ActressPageItem(scrapy.Item):
 class LatestUrlItem(scrapy.Item):
     url = scrapy.Field(output_processor=TakeFirst())
     last_update = scrapy.Field(output_processor=TakeFirst())
-
-
-class ProcessItem:
-    @classmethod
-    def none_process(cls, item):
-        pass
