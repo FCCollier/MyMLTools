@@ -38,3 +38,9 @@ class ActressPageItem(scrapy.Item):
 class LatestUrlItem(scrapy.Item):
     url = scrapy.Field(output_processor=TakeFirst())
     last_update = scrapy.Field(output_processor=TakeFirst())
+
+
+class ProcessItem:
+    @classmethod
+    def none_process(cls, item):
+        pass
