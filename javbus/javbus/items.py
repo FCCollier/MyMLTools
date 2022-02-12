@@ -15,7 +15,7 @@ class ProcessItem:
         if item:
             return item[0].strip().rstrip("分鐘")
         else:
-            return None
+            return "null"
 
 
 class IndexPageItem(scrapy.Item):

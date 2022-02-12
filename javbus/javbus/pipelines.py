@@ -4,7 +4,7 @@ from .items import IndexPageItem
 from .items import VideoItem
 from .items import LatestUrlItem
 import logging
-from spiders.JavBusSpider import JavBusConfig
+from .spiders.JavBusSpider import JavBusConfig
 
 
 class PagePipeline:
@@ -227,6 +227,7 @@ class VideoPagePipeline:
         logging.warning("数据库连接创建完毕，数据库游标创建完毕！数据库地址：" + str(host))
 
     def process_item(self, item, spider):
+        item = MyDataProcess.none_process(item)
         try:
             values = (
                 item["video_id"],
@@ -256,3 +257,16 @@ class VideoPagePipeline:
         self.db_cursor.close()
         self.db_conn.close()
         logging.warning("数据库游标关闭，数据库连接关闭！")
+
+
+class MyDataProcess:
+    @classmethod
+    def none_process(cls, item):
+        try:
+            for key in item:
+                if item[key] == "null":
+                    item[key] = None
+            return item
+        except BaseException as e:
+            logging.error("错误类型：" + str(e))
+            return None
