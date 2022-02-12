@@ -248,10 +248,91 @@ class VideoPagePipeline:
             self.db_cursor.execute(sql, values)
             self.db_conn.commit()
         except mysql.connector.errors.IntegrityError as e:
+            values = (
+                item["video_title"],
+                item["premiered"],
+                item["runtime"],
+                item["director"],
+                item["studio"],
+                item["label"],
+                item["series"],
+                item["bigimg"],
+                item["last_update"],
+                item["video_id"],
+            )
+            sql = '''
+            UPDATE video_info
+            SET video_title=%s,premiered=%s,runtime=%s,director=%s,studio=%s,label=%s,series=%s,bigimg=%s,last_update=%s
+            where video_id=%s
+            '''
+            self.db_cursor.execute(sql, values)
+            self.db_conn.commit()
             logging.warning(msg="警告信息：" + str(e))
             logging.warning("更新成功！：" + item["video_id"])
         else:
             logging.warning("插入成功！：" + item["video_id"])
+
+    def close_spider(self, spider):
+        self.db_cursor.close()
+        self.db_conn.close()
+        logging.warning("数据库游标关闭，数据库连接关闭！")
+
+
+class LastUrlPipeline:
+    def __init__(self):
+        self.db_cursor = None
+        self.db_conn = None
+
+    def open_spider(self, spider):
+        db_name = MYSQL_DB_NAME
+        if JavBusConfig.get_system_version() == "Windows":
+            host = MYSQL_HOST
+        else:
+            host = "127.0.0.1"
+        user = MYSQL_USER
+        pwd = MYSQL_PASSWORD
+        self.db_conn = mysql.connector.connect(
+            host=host,
+            user=user,
+            password=pwd,
+            database=db_name
+        )
+        self.db_cursor = self.db_conn.cursor()
+        logging.warning("C" * 60)
+        logging.warning("数据库连接创建完毕，数据库游标创建完毕！数据库地址：" + str(host))
+
+    def process_item(self, item, spider):
+        item = MyDataProcess.none_process(item)
+        try:
+            values = (
+                item["url"],
+                item["last_update"],
+            )
+            sql = '''
+            insert into latest_url(url,last_update) 
+            values(%s,%s)
+            '''
+            self.db_cursor.execute(sql, values)
+            self.db_conn.commit()
+        except mysql.connector.errors.IntegrityError as e:
+            values = (
+                item["last_update"],
+                item["url"],
+            )
+            sql = ''' 
+            UPDATE latest_url
+            SET last_update=%s
+            where url=%s
+            '''
+            self.db_cursor.execute(sql, values)
+            self.db_conn.commit()
+            logging.warning(msg="警告信息：" + str(e))
+            logging.warning("更新成功！：" + item["url"])
+        except BaseException as e:
+            self.db_conn.rollback()
+            logging.error(msg="错误信息：" + str(e))
+        else:
+            logging.warning("插入成功！：" + item["url"])
 
     def close_spider(self, spider):
         self.db_cursor.close()
