@@ -1,6 +1,7 @@
 import scrapy
 from scrapy.loader import ItemLoader
 from ..items import VideoItem
+from ..items import ActressPageItem
 import logging
 from ..settings import *
 import pandas as pd
@@ -32,6 +33,7 @@ class VideoPageSpider(scrapy.Spider):
         self.engine = create_engine(
             str(r"mysql+pymysql://%s:" + '%s' + "@%s/%s?charset=utf8") % (user, pwd, host, db_name)
         )
+        self.video_id = None
 
     def __del__(self):
         self.engine.dispose()
@@ -68,6 +70,18 @@ class VideoPageSpider(scrapy.Spider):
         videoitem.add_xpath("bigimg", "//a[@class='bigImage']/@href")
         videoitem.add_value("bigimg", "null")
         videoitem.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+        self.video_id = videoitem.load_item()["video_id"]
         yield videoitem.load_item()
+        # //*[@id="star_sb9"]/li/div
+        actress_selectors = response.xpath("//div[@class='star-name']")
+        for one_selector in actress_selectors:
+            actresspageotem = ItemLoader(item=ActressPageItem(), selector=one_selector)
+            actresspageotem.add_value("video_id", self.video_id)
+            actresspageotem.add_xpath("actress_url", "a/@href")
+            actresspageotem.add_value("actress_url", "null")
+            actresspageotem.add_xpath("actress_name", "a/@title")
+            actresspageotem.add_value("actress_url", "null")
+            actresspageotem.add_value("last_update", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+            actresspageotem.load_item()
         logging.warning("详情信息页爬取完毕！：" + str(response.url))
         logging.warning("B" * 60)
