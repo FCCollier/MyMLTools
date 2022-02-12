@@ -5,14 +5,17 @@ from itemloaders.processors import TakeFirst, MapCompose
 class ProcessItem:
     @classmethod
     def none_process(cls, item):
-        if item is None:
-            return "null"
-        else:
+        if item:
             return item
+        else:
+            return None
 
     @classmethod
     def runtime_process(cls, item):
-        return item.strip().rstrip("分鐘")
+        if item:
+            return item[0].strip().rstrip("分鐘")
+        else:
+            return None
 
 
 class IndexPageItem(scrapy.Item):
@@ -26,46 +29,19 @@ class IndexPageItem(scrapy.Item):
 
 
 class VideoItem(scrapy.Item):
-    video_id = scrapy.Field(
-        input_processor=MapCompose(ProcessItem.none_process),
-        output_processor=TakeFirst()
-    )
-    video_title = scrapy.Field(
-        input_processor=MapCompose(ProcessItem.none_process),
-        output_processor=TakeFirst()
-    )
-    premiered = scrapy.Field(
-        input_processor=MapCompose(ProcessItem.none_process),
-        output_processor=TakeFirst()
-    )
+    video_id = scrapy.Field(output_processor=TakeFirst())
+    video_title = scrapy.Field(output_processor=TakeFirst())
+    premiered = scrapy.Field(output_processor=TakeFirst())
     runtime = scrapy.Field(
-        input_processor=MapCompose(ProcessItem.none_process, ProcessItem.runtime_process),
+        input_processor=ProcessItem.runtime_process,
         output_processor=TakeFirst()
     )
-    director = scrapy.Field(
-        input_processor=MapCompose(ProcessItem.none_process),
-        output_processor=TakeFirst()
-    )
-    studio = scrapy.Field(
-        input_processor=MapCompose(ProcessItem.none_process),
-        output_processor=TakeFirst()
-    )
-    label = scrapy.Field(
-        input_processor=MapCompose(ProcessItem.none_process),
-        output_processor=TakeFirst()
-    )
-    series = scrapy.Field(
-        input_processor=MapCompose(ProcessItem.none_process),
-        output_processor=MapCompose(ProcessItem.none_process, TakeFirst())
-    )
-    bigimg = scrapy.Field(
-        input_processor=MapCompose(ProcessItem.none_process),
-        output_processor=TakeFirst()
-    )
-    last_update = scrapy.Field(
-        input_processor=MapCompose(ProcessItem.none_process),
-        output_processor=TakeFirst()
-    )
+    director = scrapy.Field(output_processor=TakeFirst())
+    studio = scrapy.Field(output_processor=TakeFirst())
+    label = scrapy.Field(output_processor=TakeFirst())
+    series = scrapy.Field(output_processor=TakeFirst())
+    bigimg = scrapy.Field(output_processor=TakeFirst())
+    last_update = scrapy.Field(output_processor=TakeFirst())
 
 
 class ActressItem(scrapy.Item):

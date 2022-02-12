@@ -4,7 +4,7 @@ from .items import IndexPageItem
 from .items import VideoItem
 from .items import LatestUrlItem
 import logging
-import platform
+from spiders.JavBusSpider import JavBusConfig
 
 
 class PagePipeline:
@@ -15,7 +15,7 @@ class PagePipeline:
 
     def open_spider(self, spider):
         db_name = MYSQL_DB_NAME
-        if self.get_system_version() == "Windows":
+        if JavBusConfig.get_system_version() == "Windows":
             host = MYSQL_HOST
         else:
             host = "127.0.0.1"
@@ -135,15 +135,6 @@ class PagePipeline:
         self.db_conn.close()
         logging.warning("数据库游标关闭，数据库连接关闭！")
 
-    def get_system_version(self):
-        mysystem = platform.platform()
-        if mysystem.find("Windows") == 0:
-            return "Windows"
-        elif mysystem.find("Linux") == 0:
-            return "Linux"
-        else:
-            return "Others"
-
 
 class IndexPagePipeline:
     def __init__(self):
@@ -152,7 +143,7 @@ class IndexPagePipeline:
 
     def open_spider(self, spider):
         db_name = MYSQL_DB_NAME
-        if MyConfig.get_system_version() == "Windows":
+        if JavBusConfig.get_system_version() == "Windows":
             host = MYSQL_HOST
         else:
             host = "127.0.0.1"
@@ -219,7 +210,7 @@ class VideoPagePipeline:
 
     def open_spider(self, spider):
         db_name = MYSQL_DB_NAME
-        if MyConfig.get_system_version() == "Windows":
+        if JavBusConfig.get_system_version() == "Windows":
             host = MYSQL_HOST
         else:
             host = "127.0.0.1"
@@ -265,15 +256,3 @@ class VideoPagePipeline:
         self.db_cursor.close()
         self.db_conn.close()
         logging.warning("数据库游标关闭，数据库连接关闭！")
-
-
-class MyConfig:
-    @classmethod
-    def get_system_version(self):
-        mysystem = platform.platform()
-        if mysystem.find("Windows") == 0:
-            return "Windows"
-        elif mysystem.find("Linux") == 0:
-            return "Linux"
-        else:
-            return "Others"
