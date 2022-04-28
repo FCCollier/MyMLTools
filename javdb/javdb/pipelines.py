@@ -8,6 +8,6 @@
 from itemadapter import ItemAdapter
 
 
-class JavdbPipeline:
+class IndexpagePipeline:
     def process_item(self, item, spider):
         return item

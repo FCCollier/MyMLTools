@@ -12,12 +12,34 @@ BOT_NAME = 'javdb'
 SPIDER_MODULES = ['javdb.spiders']
 NEWSPIDER_MODULE = 'javdb.spiders'
 
+# 日志设置
+# LOG_FILE = "./javdb.log"
+LOG_ENABLED = True
+LOG_ENCODING = 'utf-8'
+LOG_STDOUT = False
+LOG_LEVEL = "WARNING"
+# CRITICAL - 严重错误(critical)
+# ERROR - 一般错误(regular errors)
+# WARNING - 警告信息(warning messages)
+# INFO - 一般信息(informational messages)
+# DEBUG - 调试信息(debugging messages)
+
+# 数据库设置
+MYSQL_DB_NAME = "javbus"
+MYSQL_HOST = "82.157.160.44"
+MYSQL_USER = "myscrapy"
+MYSQL_PASSWORD = "x7k0zAcjrFETN9EE"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'javdb (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
+
+# 下载延迟时间
+DOWNLOAD_DELAY = 30
+# 随机延迟 0.5 ~ 1.5 倍数
+RANDOMIZE_DOWNLOAD_DELAY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
