@@ -6,6 +6,7 @@ from scrapy.linkextractors import LinkExtractor
 import time
 
 
+
 class IndexPageSpider(scrapy.Spider):
     name = 'index_page'
     start_urls = [
