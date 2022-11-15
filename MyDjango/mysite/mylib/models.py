@@ -7,5 +7,6 @@ class Actress(models.Model):
 
 
 class Video(models.Model):
+    video_id = models.AutoField(primery_key=True)
     video_title = models.CharField(max_length=200)
     actress_name = models.ForeignKey(Actress, on_delete=models.CASCADE)
